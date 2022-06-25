@@ -9,7 +9,7 @@ namespace ContactTracingwithFunctionality
 
         private void btnSavenSub_Click(object sender, EventArgs e)
         {
-            StreamWriter file = new StreamWriter(@"C:\Users\user\Documents\New folder\KonohaVisitors1.txt");
+            StreamWriter file = new StreamWriter(@"C:\Users\user\Documents\Konoha\KonohaVisitors1.txt",true);
             //Personal Information Section
             file.WriteLine(DDateofVisit.Value.ToString("o"));
             file.WriteLine(TxtBoxNm.Text);
