@@ -21,10 +21,19 @@ namespace ContactTracingwithFunctionality
 
         private void Form2_Load(object sender, EventArgs e)
         {
+            int counter = 0;
+            string line;
+            StreamReader file = new StreamReader(@"C:\Users\user\Documents\Konoha\KonohaVisitors1.txt");
+            while ((line = file.ReadLine()) != null)
+            {
+                String[] data = line.Split(';');
+                listData.Add(data);
+                listViewData.Items.Add(new ListViewItem(new string[] { data[5], data[0] }));
 
+                counter++;
+            }
+            file.Close();
         }
-
-        
 
         private void btnFilter_Click(object sender, EventArgs e)
         {
