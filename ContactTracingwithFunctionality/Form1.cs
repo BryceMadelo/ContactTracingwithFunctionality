@@ -109,5 +109,13 @@ namespace ContactTracingwithFunctionality
             }
             file.Close();
         }
+
+        private void btnNextPage_Click(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2();
+            form2.Mainform = this;
+            form2.Show();
+            this.Hide();
+        }
     }
 }

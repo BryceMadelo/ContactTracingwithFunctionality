@@ -108,12 +108,14 @@
             // 
             this.btnNextPage.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnNextPage.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnNextPage.Location = new System.Drawing.Point(736, 606);
+            this.btnNextPage.Font = new System.Drawing.Font("Cambria", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnNextPage.Location = new System.Drawing.Point(736, 603);
             this.btnNextPage.Name = "btnNextPage";
-            this.btnNextPage.Size = new System.Drawing.Size(75, 23);
+            this.btnNextPage.Size = new System.Drawing.Size(88, 26);
             this.btnNextPage.TabIndex = 75;
             this.btnNextPage.Text = "Next Page";
             this.btnNextPage.UseVisualStyleBackColor = false;
+            this.btnNextPage.Click += new System.EventHandler(this.btnNextPage_Click);
             // 
             // DDateofVisit
             // 

@@ -12,6 +12,7 @@ namespace ContactTracingwithFunctionality
 {
     public partial class Form2 : Form
     {
+        public Form1 Mainform;
         public Form2()
         {
             InitializeComponent();
@@ -26,7 +27,7 @@ namespace ContactTracingwithFunctionality
         {
             int counter = 0;
             string line;
-            StreamReader file = new StreamReader(@"C:\Users\user\Documents\Contact\KonohaVisitors.txt");
+            StreamReader file = new StreamReader(@"C:\Users\user\Documents\Konoha\KonohaVisitors1.txt");
             while ((line = file.ReadLine()) != null)
             {
                 listBox1.Items.Add(line);
