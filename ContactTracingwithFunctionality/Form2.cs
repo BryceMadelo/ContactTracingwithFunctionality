@@ -44,5 +44,31 @@ namespace ContactTracingwithFunctionality
         {
 
         }
+
+        private void SelectedD_IndexChanged(object sender, EventArgs e)
+        {
+            if (listViewData.SelectedItems.Count > 0)
+            {
+                string[] infoNames =
+                {
+                    "   Name: ",
+                    "   Age: ",
+                    "   Sex: ",
+                    "   Phone #: ",
+                    "   Address: ",
+                    "   Date of Visit: ",
+                    "   Cough: ",
+                    "   Fever: ",
+                    "   Soar Throat: ",
+                    "   Runny Nose: ",
+                    "   Loss of taste or smell: ",
+                    "   Diffculty breathing: ",
+                    "   Have you been in close contact with a Covid - 19 case?: ",
+                    "   Have you traveled outside the country in the last 14 days?: ",
+                    "   Have you received vaccine doses?: ",
+                };
+                
+            }
+        }
     }
 }

@@ -117,6 +117,7 @@
             this.listViewData.TabIndex = 20;
             this.listViewData.UseCompatibleStateImageBehavior = false;
             this.listViewData.View = System.Windows.Forms.View.Details;
+            this.listViewData.SelectedIndexChanged += new System.EventHandler(this.SelectedD_IndexChanged);
             // 
             // ColumnDate
             // 
