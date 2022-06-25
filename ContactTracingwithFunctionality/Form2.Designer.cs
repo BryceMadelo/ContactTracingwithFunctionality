@@ -90,6 +90,7 @@
             this.btnReset.TabIndex = 15;
             this.btnReset.Text = "Reset";
             this.btnReset.UseVisualStyleBackColor = true;
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
             // SelectedDate
             // 
@@ -106,6 +107,7 @@
             this.btnFilter.TabIndex = 13;
             this.btnFilter.Text = "Filter\r\n";
             this.btnFilter.UseVisualStyleBackColor = true;
+            this.btnFilter.Click += new System.EventHandler(this.btnFilter_Click);
             // 
             // btnView
             // 
@@ -115,6 +117,7 @@
             this.btnView.TabIndex = 12;
             this.btnView.Text = "View All the Data";
             this.btnView.UseVisualStyleBackColor = true;
+            this.btnView.Click += new System.EventHandler(this.btnView_Click);
             // 
             // lablTitle2
             // 
@@ -141,6 +144,7 @@
             this.Controls.Add(this.lablTitle2);
             this.Name = "Form2";
             this.Text = "Form2";
+            this.Load += new System.EventHandler(this.Form2_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
