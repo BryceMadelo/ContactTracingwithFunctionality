@@ -67,7 +67,31 @@ namespace ContactTracingwithFunctionality
                     "   Have you traveled outside the country in the last 14 days?: ",
                     "   Have you received vaccine doses?: ",
                 };
-                
+
+                ListViewItem item = listViewData.SelectedItems[0];
+                String[] selectedData = new String[] { };
+
+
+                foreach (String[] itm in listData)
+                {
+                    if (itm[0] == item.SubItems[1].Text && itm[5] == item.SubItems[0].Text)
+                    {
+                        selectedData = itm;
+                        break;
+                    }
+                    listBox1.Items.Clear();
+
+
+                    for (int i = 0; i < selectedData.Length; i++)
+                    {
+                        if (i == 0)
+                            listBox1.Items.Add("PERSONAL INFO");
+                        else if (i == 5)
+                            listBox1.Items.Add("HEALTH INFO");
+
+                        listBox1.Items.Add(infoNames[i] + selectedData[i]);
+                    }
+                }
             }
         }
     }
