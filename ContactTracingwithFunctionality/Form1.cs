@@ -11,103 +11,68 @@ namespace ContactTracingwithFunctionality
         {
             StreamWriter file = new StreamWriter(@"C:\Users\user\Documents\Konoha\KonohaVisitors1.txt",true);
             //Personal Information Section
-            file.WriteLine(DDateofVisit.Value.ToString("o"));
-            file.WriteLine(TxtBoxNm.Text);
-            file.WriteLine("-----PERSONAL INFORMATION-----");
-            file.WriteLine("Name: " + TxtBoxNm.Text);
-            file.WriteLine("Age: " + TxtboxAge.Text);
+            file.Write(TxtBoxNm.Text);
+            file.Write(";" + TxtboxAge.Text);
             if (rdbtnMale.Checked)
-            {
-                file.WriteLine("Sex: " + rdbtnMale.Text);
-            }
+                file.Write(";" + rdbtnMale.Text);
             else
-            {
-                file.WriteLine("Sex: " + rdbtnFemale.Text);
-            }
-            file.WriteLine("Phone #: " + TxtboxPhNum.Text);
-            file.WriteLine("Address: " + TxtboxAdd.Text);
-            file.WriteLine("Date of Visit: " + DDateofVisit.Text);
+                file.Write(";" + rdbtnFemale.Text);
+            file.Write(";" + TxtboxPhNum.Text);
+            file.Write(";" + TxtboxAdd.Text);
+            file.Write(";" + DDateofVisit.Value.ToString("MM/dd/yyyy"));
 
             //Health Information Section
-            file.WriteLine("-----HEALTH INFORMATION-----");
-            file.WriteLine("Have you been exepriencing the following symptoms in the past few days?");
             if (rdbtnCoughYes.Checked)
-            {
-                file.WriteLine("Cough: " + rdbtnCoughYes.Text);
-            }
+                file.Write(";" + rdbtnCoughYes.Text);
             else
-            {
-                file.WriteLine("Cough: " + rdbtnCoughNo.Text);
-            }
+                file.Write(";" + rdbtnCoughNo.Text);
+
             if (rdbtnFeverYes.Checked)
-            {
-                file.WriteLine("Fever: " + rdbtnFeverYes.Text);
-            }
+                file.Write(";" + rdbtnFeverYes.Text);
             else
-            {
-                file.WriteLine("Fever: " + rdbtnFeverNo.Text);
-            }
+                file.Write(";" + rdbtnFeverNo.Text);
+
             if (rdbtnSoreThroatYes.Checked)
-            {
-                file.WriteLine("Soar Throat: " + rdbtnSoreThroatYes.Text);
-            }
+                file.Write(";" + rdbtnSoreThroatYes.Text);
             else
-            {
-                file.WriteLine("Soar Throat: " + rdbtnSoreThroatNo.Text);
-            }
+                file.Write(";" + rdbtnSoreThroatNo.Text);
+
             if (rdbtnRunnyNoseYes.Checked)
-            {
-                file.WriteLine("Runny Nose: " + rdbtnRunnyNoseYes.Text);
-            }
+                file.Write(";" + rdbtnRunnyNoseYes.Text);
             else
-            {
-                file.WriteLine("Runny Nose: " + rdbtnRunnyNoseNo.Text);
-            }
+                file.Write(";" + rdbtnRunnyNoseNo.Text);
+
             if (rdbtnLossTasteYes.Checked)
-            {
-                file.WriteLine("Loss of taste or smell: " + rdbtnLossTasteYes.Text);
-            }
+                file.Write(";" + rdbtnLossTasteYes.Text);
             else
-            {
-                file.WriteLine("Loss of taste or smell: " + rdbtnLossTasteNo.Text);
-            }
+                file.Write(";" + rdbtnLossTasteNo.Text);
+
             if (rdbtnDiffBreathYes.Checked)
-            {
-                file.WriteLine("Difficulty breathing: " + rdbtnDiffBreathYes.Text);
-            }
+                file.Write(";" + rdbtnDiffBreathYes.Text);
             else
-            {
-                file.WriteLine("Diffculty breathing: " + rdbtnDiffBreathNo.Text);
-            }
+                file.Write(";" + rdbtnDiffBreathNo.Text);
+
             if (rdbtnCloseContactYes.Checked)
-            {
-                file.WriteLine("Have you been in close contact with a Covid - 19 case?: " + rdbtnCloseContactYes.Text);
-            }
+                file.Write(";" + rdbtnCloseContactYes.Text);
             else
-            {
-                file.WriteLine("Have you been in close contact with a Covid - 19 case?: " + rdbtnCloseContactNo.Text);
-            }
+                file.Write(";" + rdbtnCloseContactNo.Text);
+
             if (rdbtnTraveledYes.Checked)
-            {
-                file.WriteLine("Have you traveled outside the country in the last 14 days?: " + rdbtnTraveledYes.Text);
-            }
+                file.Write(";" + rdbtnTraveledYes.Text);
             else
-            {
-                file.WriteLine("Have you traveled outside the country in the last 14 days?: " + rdbtnTraveledNo.Text);
-            }
+                file.Write(";" + rdbtnTraveledNo.Text);
+
             if (rdbtnVaxxYes.Checked)
-            {
-                file.WriteLine("Have you received vaccine doses?: " + rdbtnVaxxYes.Text);
-            }
+                file.Write(";" + rdbtnVaxxYes.Text);
+            else if (rdbtnVaxxNo.Checked)
+                file.Write(";" + rdbtnVaxxNo.Text);
             else
-            {
-                file.WriteLine("Have you received vaccine doses?: " + rdbtnVaxxNo.Text);
-            }
-            if (rdbtnVaxxwithBoosterYes.Checked)
-            {
-                file.WriteLine("Have you received vaccine doses?: " + rdbtnVaxxwithBoosterYes.Text);
-            }
+                file.Write(";" + rdbtnVaxxwithBoosterYes.Text);
+
+            file.WriteLine();
             file.Close();
+
+
         }
 
         private void btnNextPage_Click(object sender, EventArgs e)

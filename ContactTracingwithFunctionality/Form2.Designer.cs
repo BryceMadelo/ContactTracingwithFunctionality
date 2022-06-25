@@ -77,9 +77,9 @@
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 15;
-            this.listBox1.Location = new System.Drawing.Point(55, 146);
+            this.listBox1.Location = new System.Drawing.Point(41, 146);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(386, 259);
+            this.listBox1.Size = new System.Drawing.Size(417, 259);
             this.listBox1.TabIndex = 16;
             // 
             // btnReset
@@ -123,7 +123,7 @@
             // 
             this.lablTitle2.AutoSize = true;
             this.lablTitle2.Font = new System.Drawing.Font("Cambria", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lablTitle2.Location = new System.Drawing.Point(83, 30);
+            this.lablTitle2.Location = new System.Drawing.Point(87, 39);
             this.lablTitle2.Name = "lablTitle2";
             this.lablTitle2.Size = new System.Drawing.Size(547, 37);
             this.lablTitle2.TabIndex = 11;
