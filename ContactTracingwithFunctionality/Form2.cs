@@ -29,7 +29,7 @@ namespace ContactTracingwithFunctionality
             {
                 String[] data = line.Split(';');
                 listData.Add(data);
-                listView1.Items.Add(new ListViewItem(new string[] { data[5], data[0] }));
+                listViewData.Items.Add(new ListViewItem(new string[] { data[5], data[0] }));
 
                 counter++;
             }
@@ -38,19 +38,19 @@ namespace ContactTracingwithFunctionality
 
         private void btnFilter_Click(object sender, EventArgs e)
         {
-            listView1.Items.Clear();
+            listViewData.Items.Clear();
             foreach (string[] data in listData)
             {
                 if (SelectedDate.Value.ToString("MM/dd/yyyy") == data[5])
                 {
-                    listView1.Items.Add(new ListViewItem(new string[] { data[5], data[0] }));
+                    listViewData.Items.Add(new ListViewItem(new string[] { data[5], data[0] }));
                 }
             }
         }
 
         private void SelectedD_IndexChanged(object sender, EventArgs e)
         {
-            if (listView1.SelectedItems.Count > 0)
+            if (listViewData.SelectedItems.Count > 0)
             {
                 string[] infoNames =
                 {
@@ -71,7 +71,7 @@ namespace ContactTracingwithFunctionality
                     "   Have you received vaccine doses?: ",
                 };
 
-                ListViewItem item = listView1.SelectedItems[0];
+                ListViewItem item = listViewData.SelectedItems[0];
                 String[] selectedData = new String[] { };
 
 
@@ -83,24 +83,24 @@ namespace ContactTracingwithFunctionality
                         break;
                     }
                 }
-                listBox1.Items.Clear();
+                listBoxFilterResult.Items.Clear();
 
 
                 for (int i = 0; i < selectedData.Length; i++)
                 {
                     if (i == 0)
-                        listBox1.Items.Add("PERSONAL INFO");
+                        listBoxFilterResult.Items.Add("PERSONAL INFO");
                     else if (i == 5)
-                        listBox1.Items.Add("HEALTH INFO");
+                        listBoxFilterResult.Items.Add("HEALTH INFO");
 
-                    listBox1.Items.Add(infoNames[i] + selectedData[i]);
+                    listBoxFilterResult.Items.Add(infoNames[i] + selectedData[i]);
                 }
             }
         }
 
         private void btnReset_Click(object sender, EventArgs e)
         {
-            listBox1.Items.Clear();
+            listBoxFilterResult.Items.Clear();
         }
 
         private void btnResetFilter_Click(object sender, EventArgs e)

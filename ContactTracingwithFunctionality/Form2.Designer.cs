@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DATABASE));
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.listBoxFilterResult = new System.Windows.Forms.ListBox();
             this.lablDataVisit = new System.Windows.Forms.Label();
-            this.listView1 = new System.Windows.Forms.ListView();
+            this.listViewData = new System.Windows.Forms.ListView();
             this.ColumnDate = new System.Windows.Forms.ColumnHeader();
             this.ColumnName = new System.Windows.Forms.ColumnHeader();
             this.btnReset = new System.Windows.Forms.Button();
@@ -44,15 +44,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
-            // listBox1
+            // listBoxFilterResult
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 15;
-            this.listBox1.Location = new System.Drawing.Point(24, 115);
-            this.listBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(419, 259);
-            this.listBox1.TabIndex = 19;
+            this.listBoxFilterResult.FormattingEnabled = true;
+            this.listBoxFilterResult.ItemHeight = 15;
+            this.listBoxFilterResult.Location = new System.Drawing.Point(24, 115);
+            this.listBoxFilterResult.Margin = new System.Windows.Forms.Padding(2);
+            this.listBoxFilterResult.Name = "listBoxFilterResult";
+            this.listBoxFilterResult.Size = new System.Drawing.Size(419, 259);
+            this.listBoxFilterResult.TabIndex = 19;
             // 
             // lablDataVisit
             // 
@@ -64,19 +64,19 @@
             this.lablDataVisit.TabIndex = 18;
             this.lablDataVisit.Text = "Data of Visitors";
             // 
-            // listView1
+            // listViewData
             // 
-            this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.listViewData.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.ColumnDate,
             this.ColumnName});
-            this.listView1.Location = new System.Drawing.Point(448, 117);
-            this.listView1.MultiSelect = false;
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(237, 257);
-            this.listView1.TabIndex = 17;
-            this.listView1.UseCompatibleStateImageBehavior = false;
-            this.listView1.View = System.Windows.Forms.View.Details;
-            this.listView1.SelectedIndexChanged += new System.EventHandler(this.SelectedD_IndexChanged);
+            this.listViewData.Location = new System.Drawing.Point(448, 117);
+            this.listViewData.MultiSelect = false;
+            this.listViewData.Name = "listViewData";
+            this.listViewData.Size = new System.Drawing.Size(237, 257);
+            this.listViewData.TabIndex = 17;
+            this.listViewData.UseCompatibleStateImageBehavior = false;
+            this.listViewData.View = System.Windows.Forms.View.Details;
+            this.listViewData.SelectedIndexChanged += new System.EventHandler(this.SelectedD_IndexChanged);
             // 
             // ColumnDate
             // 
@@ -174,9 +174,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(715, 454);
             this.Controls.Add(this.btnBack);
-            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.listBoxFilterResult);
             this.Controls.Add(this.lablDataVisit);
-            this.Controls.Add(this.listView1);
+            this.Controls.Add(this.listViewData);
             this.Controls.Add(this.btnReset);
             this.Controls.Add(this.SelectedDate);
             this.Controls.Add(this.btnFilter);
@@ -195,9 +195,9 @@
 
         #endregion
 
-        private ListBox listBox1;
+        private ListBox listBoxFilterResult;
         private Label lablDataVisit;
-        private ListView listView1;
+        private ListView listViewData;
         private ColumnHeader ColumnDate;
         private ColumnHeader ColumnName;
         private Button btnReset;
