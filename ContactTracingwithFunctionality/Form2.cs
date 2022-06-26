@@ -11,11 +11,11 @@ using System.IO;
 
 namespace ContactTracingwithFunctionality
 {
-    public partial class Form2 : Form
+    public partial class DATABASE : Form
     {
-        public Form1 Mainform;
+        public KonohaContactTracing Mainform;
         List<string[]> listData = new List<string[]> { };
-        public Form2()
+        public DATABASE()
         {
             InitializeComponent();
         }
@@ -106,6 +106,11 @@ namespace ContactTracingwithFunctionality
         private void btnResetFilter_Click(object sender, EventArgs e)
         {
             SelectedDate.ResetText();
+        }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

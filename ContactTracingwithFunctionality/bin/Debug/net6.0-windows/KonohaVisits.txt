@@ -1,3 +1,14 @@
 Hinat;19;Female;093737335671;Konoha;06/21/2022;No;No;No;No;No;No;No;No;Yes, I'm fully vaccinated with booster shot
 Brays Madelo;19;Male;09167721215;Las Pinas City;06/22/2022;No;No;No;No;No;No;No;No;Yes, I'm fully vaccinated with booster shot
 Naruto;32;Male;0912828261;Konoha;06/23/2022;No;No;No;No;No;No;No;No;Yes, I'm fully vaccinated with booster shot
+Sakura;24;Female;0963737381;Outside Konoha;06/24/2022;No;No;No;No;No;No;No;No;Yes, I'm fully vaccinated with booster shot
+alexandra denisse;12;Female;09541564551;jade;06/26/2022;No;No;No;No;No;No;No;No;Yes, I'm fully vaccinated
+Eleven;16;Male;0993735371;Hawkins Downtown;06/24/2022;No;No;No;No;No;No;No;No;Yes, I'm fully vaccinated with booster shot
+Louyi;24;Female;0973738381;Land of Dawn;06/25/2022;No;No;No;No;No;No;No;No;Yes, I'm fully vaccinated with booster shot
+Bruno;18;Male;0944648491;Land of Dawn;06/25/2022;No;No;No;No;No;No;No;No;Yes, I'm fully vaccinated with booster shot
+Bruno;18;Male;0944648491;Land of Dawn;06/25/2022;No;No;No;No;No;No;No;No;Yes, I'm fully vaccinated with booster shot
+Daenerys;25;Female;0947444681;Westeros;06/22/2022;No;No;No;No;No;No;No;No;Yes, I'm fully vaccinated with booster shot
+Jon Snow;25;Male;0937363731;Winterfell;06/22/2022;No;No;No;No;No;No;No;No;Yes, I'm fully vaccinated
+Brandon Stark;19;Male;0937363581;Winterfell;06/22/2022;No;No;No;No;No;No;No;No;Yes, I'm fully vaccinated with booster shot
+Cersei;31;Female;093637351;Casterly Rock;06/21/2022;No;No;No;No;No;No;No;No;No
+Khal Drogp;35;Male;093836371;Vaes Dothrak;06/21/2022;No;No;No;No;No;No;No;No;Yes, I'm fully vaccinated with booster shot

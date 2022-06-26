@@ -1,6 +1,6 @@
 ﻿namespace ContactTracingwithFunctionality
 {
-    partial class Form1
+    partial class KonohaContactTracing
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(KonohaContactTracing));
             this.btnNextPage = new System.Windows.Forms.Button();
             this.DDateofVisit = new System.Windows.Forms.DateTimePicker();
             this.btnSavenSub = new System.Windows.Forms.Button();
@@ -111,7 +111,7 @@
             this.btnNextPage.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnNextPage.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnNextPage.Font = new System.Drawing.Font("Cambria", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnNextPage.Location = new System.Drawing.Point(736, 603);
+            this.btnNextPage.Location = new System.Drawing.Point(751, 609);
             this.btnNextPage.Name = "btnNextPage";
             this.btnNextPage.Size = new System.Drawing.Size(88, 26);
             this.btnNextPage.TabIndex = 75;
@@ -592,6 +592,7 @@
             this.grpbxSex.Size = new System.Drawing.Size(204, 68);
             this.grpbxSex.TabIndex = 57;
             this.grpbxSex.TabStop = false;
+            this.grpbxSex.Enter += new System.EventHandler(this.grpbxSex_Enter);
             // 
             // rdbtnFemale
             // 
@@ -626,6 +627,7 @@
             this.label1.Size = new System.Drawing.Size(40, 22);
             this.label1.TabIndex = 19;
             this.label1.Text = "Sex";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // TxtboxAge
             // 
@@ -694,7 +696,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::ContactTracingwithFunctionality.Properties.Resources.images;
-            this.pictureBox1.Location = new System.Drawing.Point(673, 23);
+            this.pictureBox1.Location = new System.Drawing.Point(673, 34);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(138, 75);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -736,8 +738,8 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Cambria", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label5.ForeColor = System.Drawing.Color.Crimson;
-            this.label5.Location = new System.Drawing.Point(216, 37);
+            this.label5.ForeColor = System.Drawing.Color.Maroon;
+            this.label5.Location = new System.Drawing.Point(216, 48);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(435, 40);
             this.label5.TabIndex = 76;
@@ -746,14 +748,14 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::ContactTracingwithFunctionality.Properties.Resources.images;
-            this.pictureBox2.Location = new System.Drawing.Point(60, 23);
+            this.pictureBox2.Location = new System.Drawing.Point(60, 34);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(138, 75);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox2.TabIndex = 77;
             this.pictureBox2.TabStop = false;
             // 
-            // Form1
+            // KonohaContactTracing
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -788,8 +790,9 @@
             this.Controls.Add(this.lablTitle);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.dataGridView1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "KonohaContactTracing";
+            this.Text = "Contact Tracing Form To Enter Konoha";
             this.groupBox8.ResumeLayout(false);
             this.groupBox8.PerformLayout();
             this.groupBox7.ResumeLayout(false);

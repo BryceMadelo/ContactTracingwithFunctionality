@@ -4,8 +4,6 @@ C:\Users\user\source\repos\ContactTracingwithFunctionality\ContactTracingwithFun
 C:\Users\user\source\repos\ContactTracingwithFunctionality\ContactTracingwithFunctionality\bin\Debug\net6.0-windows\ContactTracingwithFunctionality.dll
 C:\Users\user\source\repos\ContactTracingwithFunctionality\ContactTracingwithFunctionality\bin\Debug\net6.0-windows\ContactTracingwithFunctionality.pdb
 C:\Users\user\source\repos\ContactTracingwithFunctionality\ContactTracingwithFunctionality\obj\Debug\net6.0-windows\ContactTracingwithFunctionality.csproj.AssemblyReference.cache
-C:\Users\user\source\repos\ContactTracingwithFunctionality\ContactTracingwithFunctionality\obj\Debug\net6.0-windows\ContactTracingwithFunctionality.Form1.resources
-C:\Users\user\source\repos\ContactTracingwithFunctionality\ContactTracingwithFunctionality\obj\Debug\net6.0-windows\ContactTracingwithFunctionality.Form2.resources
 C:\Users\user\source\repos\ContactTracingwithFunctionality\ContactTracingwithFunctionality\obj\Debug\net6.0-windows\ContactTracingwithFunctionality.Properties.Resources.resources
 C:\Users\user\source\repos\ContactTracingwithFunctionality\ContactTracingwithFunctionality\obj\Debug\net6.0-windows\ContactTracingwithFunctionality.csproj.GenerateResource.cache
 C:\Users\user\source\repos\ContactTracingwithFunctionality\ContactTracingwithFunctionality\obj\Debug\net6.0-windows\ContactTracingwithFunctionality.GeneratedMSBuildEditorConfig.editorconfig
@@ -17,3 +15,5 @@ C:\Users\user\source\repos\ContactTracingwithFunctionality\ContactTracingwithFun
 C:\Users\user\source\repos\ContactTracingwithFunctionality\ContactTracingwithFunctionality\obj\Debug\net6.0-windows\ContactTracingwithFunctionality.pdb
 C:\Users\user\source\repos\ContactTracingwithFunctionality\ContactTracingwithFunctionality\obj\Debug\net6.0-windows\ContactTracingwithFunctionality.genruntimeconfig.cache
 C:\Users\user\source\repos\ContactTracingwithFunctionality\ContactTracingwithFunctionality\obj\Debug\net6.0-windows\ref\ContactTracingwithFunctionality.dll
+C:\Users\user\source\repos\ContactTracingwithFunctionality\ContactTracingwithFunctionality\obj\Debug\net6.0-windows\ContactTracingwithFunctionality.DATABASE.resources
+C:\Users\user\source\repos\ContactTracingwithFunctionality\ContactTracingwithFunctionality\obj\Debug\net6.0-windows\ContactTracingwithFunctionality.KonohaContactTracing.resources

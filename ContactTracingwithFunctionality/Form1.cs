@@ -1,8 +1,8 @@
 namespace ContactTracingwithFunctionality
 {
-    public partial class Form1 : Form
+    public partial class KonohaContactTracing : Form
     {
-        public Form1()
+        public KonohaContactTracing()
         {
             InitializeComponent();
         }
@@ -72,12 +72,41 @@ namespace ContactTracingwithFunctionality
             file.WriteLine();
             file.Close();
 
+            TxtBoxNm.Text = "";
+            TxtboxAge.Text = "";
+            rdbtnMale.Checked = false;
+            rdbtnFemale.Checked = false;
+            TxtboxPhNum.Text = "";
+            TxtboxAdd.Text = "";
+            DDateofVisit.ResetText();
+
+            rdbtnCoughYes.Checked = false;
+            rdbtnCoughNo.Checked = false;
+            rdbtnFeverYes.Checked = false;
+            rdbtnFeverNo.Checked = false;
+            rdbtnSoreThroatYes.Checked = false;
+            rdbtnSoreThroatNo.Checked = false;
+            rdbtnRunnyNoseYes.Checked = false;
+            rdbtnRunnyNoseNo.Checked = false;
+            rdbtnLossTasteYes.Checked = false;
+            rdbtnLossTasteNo.Checked = false;
+            rdbtnDiffBreathYes.Checked = false;
+            rdbtnDiffBreathNo.Checked = false;
+            rdbtnCloseContactYes.Checked = false;
+            rdbtnCloseContactNo.Checked = false;
+            rdbtnTraveledYes.Checked = false;
+            rdbtnTraveledNo.Checked = false;
+
+            rdbtnVaxxYes.Checked = false;
+            rdbtnVaxxNo.Checked = false;
+            rdbtnVaxxwithBoosterYes.Checked = false;
 
         }
 
         private void btnNextPage_Click(object sender, EventArgs e)
         {
-            Form2 form2 = new Form2();
+           
+            DATABASE form2 = new DATABASE();
             form2.Mainform = this;
             form2.Show();
 
@@ -87,6 +116,16 @@ namespace ContactTracingwithFunctionality
         private void Form2_FormClosed(object? sender, FormClosedEventArgs e)
         {
             this.Show();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void grpbxSex_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }
