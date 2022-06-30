@@ -793,6 +793,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "KonohaContactTracing";
             this.Text = "Contact Tracing Form To Enter Konoha";
+            this.Load += new System.EventHandler(this.KonohaContactTracing_Load);
             this.groupBox8.ResumeLayout(false);
             this.groupBox8.PerformLayout();
             this.groupBox7.ResumeLayout(false);

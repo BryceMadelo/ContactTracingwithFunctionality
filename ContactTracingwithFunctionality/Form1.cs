@@ -127,5 +127,10 @@ namespace ContactTracingwithFunctionality
         {
 
         }
+
+        private void KonohaContactTracing_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "WyuxVtk3ib3Bc64GHRaPfyyb2lGFVplf/AhU3lCi7y0tcdmCOUF1EjZcgw3YuOVXKAzF3VECTbe8mPf6f3QlrQ==",
+  "dgSpecHash": "4/M0RM48IFj0FyxGh9YRJieIRAthWDEs+cm4S0RQpGU4Nkjn17wtb2bPHKdpfmdYOErbhDyARF/DN5QYTCTdeQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\source\\repos\\ContactTracingwithFunctionality\\ContactTracingwithFunctionality\\ContactTracingwithFunctionality.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\qrcoder\\1.4.3\\qrcoder.1.4.3.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

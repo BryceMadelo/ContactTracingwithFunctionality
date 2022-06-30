@@ -41,6 +41,7 @@
             this.lablTitle2 = new System.Windows.Forms.Label();
             this.btnBack = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.btnNext2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -51,14 +52,17 @@
             this.listBoxFilterResult.Location = new System.Drawing.Point(24, 115);
             this.listBoxFilterResult.Margin = new System.Windows.Forms.Padding(2);
             this.listBoxFilterResult.Name = "listBoxFilterResult";
-            this.listBoxFilterResult.Size = new System.Drawing.Size(419, 259);
+            this.listBoxFilterResult.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.listBoxFilterResult.SelectionMode = System.Windows.Forms.SelectionMode.MultiSimple;
+            this.listBoxFilterResult.Size = new System.Drawing.Size(454, 259);
             this.listBoxFilterResult.TabIndex = 19;
             // 
             // lablDataVisit
             // 
             this.lablDataVisit.AutoSize = true;
+            this.lablDataVisit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.lablDataVisit.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lablDataVisit.Location = new System.Drawing.Point(524, 93);
+            this.lablDataVisit.Location = new System.Drawing.Point(552, 93);
             this.lablDataVisit.Name = "lablDataVisit";
             this.lablDataVisit.Size = new System.Drawing.Size(122, 19);
             this.lablDataVisit.TabIndex = 18;
@@ -69,7 +73,7 @@
             this.listViewData.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.ColumnDate,
             this.ColumnName});
-            this.listViewData.Location = new System.Drawing.Point(448, 117);
+            this.listViewData.Location = new System.Drawing.Point(493, 115);
             this.listViewData.MultiSelect = false;
             this.listViewData.Name = "listViewData";
             this.listViewData.Size = new System.Drawing.Size(237, 257);
@@ -93,7 +97,7 @@
             this.btnReset.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.btnReset.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnReset.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnReset.Location = new System.Drawing.Point(199, 381);
+            this.btnReset.Location = new System.Drawing.Point(216, 379);
             this.btnReset.Name = "btnReset";
             this.btnReset.Size = new System.Drawing.Size(69, 21);
             this.btnReset.TabIndex = 16;
@@ -126,7 +130,7 @@
             this.btnResetFilter.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.btnResetFilter.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnResetFilter.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnResetFilter.Location = new System.Drawing.Point(337, 87);
+            this.btnResetFilter.Location = new System.Drawing.Point(372, 87);
             this.btnResetFilter.Name = "btnResetFilter";
             this.btnResetFilter.Size = new System.Drawing.Size(106, 24);
             this.btnResetFilter.TabIndex = 13;
@@ -139,7 +143,7 @@
             this.lablTitle2.AutoSize = true;
             this.lablTitle2.Font = new System.Drawing.Font("Cambria", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lablTitle2.ForeColor = System.Drawing.Color.Maroon;
-            this.lablTitle2.Location = new System.Drawing.Point(84, 18);
+            this.lablTitle2.Location = new System.Drawing.Point(91, 19);
             this.lablTitle2.Name = "lablTitle2";
             this.lablTitle2.Size = new System.Drawing.Size(547, 37);
             this.lablTitle2.TabIndex = 12;
@@ -150,7 +154,7 @@
             this.btnBack.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnBack.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnBack.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnBack.Location = new System.Drawing.Point(637, 419);
+            this.btnBack.Location = new System.Drawing.Point(12, 419);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(63, 23);
             this.btnBack.TabIndex = 20;
@@ -165,14 +169,28 @@
             this.dataGridView1.Location = new System.Drawing.Point(12, 68);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 25;
-            this.dataGridView1.Size = new System.Drawing.Size(688, 345);
+            this.dataGridView1.Size = new System.Drawing.Size(734, 345);
             this.dataGridView1.TabIndex = 21;
+            // 
+            // btnNext2
+            // 
+            this.btnNext2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnNext2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnNext2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnNext2.Location = new System.Drawing.Point(683, 419);
+            this.btnNext2.Name = "btnNext2";
+            this.btnNext2.Size = new System.Drawing.Size(63, 23);
+            this.btnNext2.TabIndex = 22;
+            this.btnNext2.Text = "Next";
+            this.btnNext2.UseVisualStyleBackColor = false;
+            this.btnNext2.Click += new System.EventHandler(this.btnNext2_Click);
             // 
             // DATABASE
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(715, 454);
+            this.ClientSize = new System.Drawing.Size(758, 454);
+            this.Controls.Add(this.btnNext2);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.listBoxFilterResult);
             this.Controls.Add(this.lablDataVisit);
@@ -185,7 +203,7 @@
             this.Controls.Add(this.dataGridView1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "DATABASE";
-            this.Text = "DATABASE";
+            this.Text = " ";
             this.Load += new System.EventHandler(this.Form2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
@@ -207,5 +225,6 @@
         private Label lablTitle2;
         private Button btnBack;
         private DataGridView dataGridView1;
+        private Button btnNext2;
     }
 }
