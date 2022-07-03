@@ -15,21 +15,12 @@ namespace ContactTracingwithFunctionality
         public DATABASE Secondform;
         public QRCode()
         {
-
-        }
-
-        public QRCode(QRCoder.QRCodeData data)
-        {
             InitializeComponent();
         }
 
-        private void btnGenerator_Click(object sender, EventArgs e)
+        private void QRCode_Load(object sender, EventArgs e)
         {
-            QRCoder.QRCodeGenerator QG = new QRCoder.QRCodeGenerator();
-            var Data = QG.CreateQrCode(txtboxQR.Text, QRCoder.QRCodeGenerator.ECCLevel.H);
-            var code = new QRCoder.QRCode(Data);
-            picboxQR.Image = code.GetGraphic(100);
-       
+
         }
     }
 }

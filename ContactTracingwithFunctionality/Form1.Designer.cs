@@ -135,9 +135,9 @@
             // 
             // DDateofVisit
             // 
-            this.DDateofVisit.Location = new System.Drawing.Point(632, 167);
+            this.DDateofVisit.Location = new System.Drawing.Point(631, 167);
             this.DDateofVisit.Name = "DDateofVisit";
-            this.DDateofVisit.Size = new System.Drawing.Size(200, 23);
+            this.DDateofVisit.Size = new System.Drawing.Size(201, 23);
             this.DDateofVisit.TabIndex = 160;
             // 
             // label4

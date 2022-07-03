@@ -1,4 +1,3 @@
-using QRCoder;
 namespace ContactTracingwithFunctionality
 {
     public partial class KonohaContactTracing : Form
@@ -80,30 +79,14 @@ namespace ContactTracingwithFunctionality
         }
         private void Qrcode()
         {
-            /*string input1 = TxtBoxNm.Text;
-            string input2 = TxtboxAge.Text;
-            string input3 = grpbxSex.Text;
-            string input4 = DDateofVisit.Text;
-            string input5 = TxtboxPhNum.Text;
-            string input6 = TxtboxAdd.Text;
-            string input7 = grpbxCough.Text;
-            string input8 = groupBoxFev.Text;
-            string input9 = grpbxSore.Text;
-            string input10 = grpbxRunny.Text;
-            string input11 = grpbxLoss.Text;
-            string input12 = grpbxDiff.Text;
-            string input13 = grpbxContact.Text;
-            string input14 = grpbxTraveled.Text;
-            string input15 = grpbxVaxx.Text;*/
-
-            /*var text = TxtBoxNm.Text + " " + TxtboxAge.Text + " " + grpbxSex.Text + " " + DDateofVisit.Text + " " + TxtboxPhNum.Text + " " + TxtboxAdd.Text + " " + grpbxCough.Text + " " + groupBoxFev.Text + " " + grpbxSore.Text + " " + grpbxRunny.Text + " " + grpbxLoss.Text + " " + grpbxDiff.Text + " " + grpbxContact.Text + " " + grpbxTraveled.Text + " " + grpbxVaxx.Text;
+            
+            var text = TxtBoxNm.Text + " " + TxtboxAge.Text + " " + cmbboxSex.Text + " " + DDateofVisit.Text + " " + TxtboxPhNum.Text + " " + TxtboxAdd.Text + " " + cmbboxCough.Text + " " + cmbboxFever.Text + " " + cmbboxSore.Text + " " + cmbboxRunny.Text + " " + cmbboxLoss.Text + " " + cmbboxDiff.Text + " " + cmbboxContact.Text + " " + cmbboxTraveled.Text + " " + cmbboxVaxx.Text;
             picboxQR.SizeMode = PictureBoxSizeMode.StretchImage;
             QRCoder.QRCodeGenerator qr = new QRCoder.QRCodeGenerator();
-            var Info = qr.CreateQrCode("Personal Information" + "Name:" + TxtBoxNm.Text + "Age:" + TxtboxAge.Text + "Sex:" + grpbxSex.Text + "Date of Vsit:" + DDateofVisit.Text + "Phone Number:" + TxtboxPhNum.Text + "Address:" + TxtboxAdd.Text + "Have you been experiencing these symptopms?" + "Cough:" + grpbxCough.Text + "Fever:" + groupBoxFev.Text + "Sore Throat:" + grpbxSore.Text + "Runny Nose:" + grpbxRunny + "Loss of Taste:" + grpbxLoss.Text + "Difficulty Breathing:" + grpbxDiff.Text + "Have you been in close contact with a Covid - 19 case?" + grpbxContact.Text + "Have you traveled outside the country in the last 14 days ?" + grpbxTraveled.Text + "Have you received vaccine doses?" + grpbxVaxx, QRCoder.QRCodeGenerator.ECCLevel.L);
+            var Info = qr.CreateQrCode("Personal Information" + "                                                        Name: " + TxtBoxNm.Text + " " + "                                                             Age: " + TxtboxAge.Text + "                                                                  Sex: " + cmbboxSex.Text + "                                                                     Date Visit: " + DDateofVisit.Text + "                                                                 Phone Number: " + TxtboxPhNum.Text + "                                                   Address: " + TxtboxAdd.Text + "                                                         Have you been experiencing these symptopms?" + "                                                 Cough: " + cmbboxCough.Text + "                                                                  Fever: " + cmbboxFever.Text + "                                                                   Sore Throat: " + cmbboxSore.Text + "                                                              Runny Nose: " + cmbboxRunny.Text + "                                                                  Loss of Taste: " + cmbboxLoss.Text + "                                                          Difficulty Breathing:" + cmbboxDiff.Text + "                                     Have you been in close contact with a Covid - 19 case?:" + cmbboxContact.Text + "                                                              Have you traveled outside the country in the last 14 days ?:" + cmbboxTraveled.Text + "                                                                     Have you received vaccine doses?:" + cmbboxVaxx.Text, QRCoder.QRCodeGenerator.ECCLevel.L);
             var code = new QRCoder.QRCode(Info);
-            picboxQR.Image = code.GetGraphic(100);*/
+            picboxQR.Image = code.GetGraphic(50);
         }
-
         private void lablLoss_Click(object sender, EventArgs e)
         {
 
