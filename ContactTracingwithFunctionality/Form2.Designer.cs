@@ -41,6 +41,7 @@
             this.lablTitle2 = new System.Windows.Forms.Label();
             this.btnBack = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.btnNextP = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -172,11 +173,25 @@
             this.dataGridView1.Size = new System.Drawing.Size(734, 345);
             this.dataGridView1.TabIndex = 21;
             // 
+            // btnNextP
+            // 
+            this.btnNextP.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnNextP.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnNextP.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnNextP.Location = new System.Drawing.Point(658, 419);
+            this.btnNextP.Name = "btnNextP";
+            this.btnNextP.Size = new System.Drawing.Size(88, 30);
+            this.btnNextP.TabIndex = 22;
+            this.btnNextP.Text = "Next Page";
+            this.btnNextP.UseVisualStyleBackColor = false;
+            this.btnNextP.Click += new System.EventHandler(this.btnNextP_Click);
+            // 
             // DATABASE
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1090, 454);
+            this.ClientSize = new System.Drawing.Size(768, 460);
+            this.Controls.Add(this.btnNextP);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.listBoxFilterResult);
             this.Controls.Add(this.lablDataVisit);
@@ -211,5 +226,6 @@
         private Label lablTitle2;
         private Button btnBack;
         private DataGridView dataGridView1;
+        private Button btnNextP;
     }
 }

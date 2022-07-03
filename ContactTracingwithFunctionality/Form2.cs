@@ -131,5 +131,20 @@ namespace ContactTracingwithFunctionality
         {
 
         }
+
+        private void btnNextP_Click(object sender, EventArgs e)
+        {
+            QRCode form3 = new QRCode();
+            form3.Secondform = this;
+            form3.Show();
+
+            form3.FormClosed += Form3_FormClosed1;
+            this.Hide();
+        }
+
+        private void Form3_FormClosed1(object? sender, FormClosedEventArgs e)
+        {
+            this.Show();
+        }
     }
 }

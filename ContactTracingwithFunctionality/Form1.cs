@@ -51,25 +51,9 @@ namespace ContactTracingwithFunctionality
             cmbboxVaxx.Text = "";
         }
 
-        private void Form2_FormClosed(object? sender, FormClosedEventArgs e)
-        {
-            this.Show();
-        }
-
-
         private void KonohaContactTracing_Load(object sender, EventArgs e)
         {
 
-        }
-
-        private void btnNextPage_Click_1(object sender, EventArgs e)
-        {
-            DATABASE form2 = new DATABASE();
-            form2.Mainform = this;
-            form2.Show();
-
-            form2.FormClosed += Form2_FormClosed;
-            this.Hide();
         }
 
         private void btnQR_Click(object sender, EventArgs e)
@@ -90,6 +74,19 @@ namespace ContactTracingwithFunctionality
         private void lablLoss_Click(object sender, EventArgs e)
         {
 
+        }
+        private void btnNextPage_Click_1(object sender, EventArgs e)
+        {
+            DATABASE form2 = new DATABASE();
+            form2.Mainform = this;
+            form2.Show();
+
+            form2.FormClosed += Form2_FormClosed;
+            this.Hide();
+        }
+        private void Form2_FormClosed(object? sender, FormClosedEventArgs e)
+        {
+            this.Show();
         }
     }
 }

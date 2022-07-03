@@ -20,3 +20,9 @@ C:\Users\user\source\repos\ContactTracingwithFunctionality\ContactTracingwithFun
 C:\Users\user\source\repos\ContactTracingwithFunctionality\ContactTracingwithFunctionality\bin\Debug\net6.0-windows\QRCoder.dll
 C:\Users\user\source\repos\ContactTracingwithFunctionality\ContactTracingwithFunctionality\obj\Debug\net6.0-windows\ContactTracingwithFunctionality.QRCode.resources
 C:\Users\user\source\repos\ContactTracingwithFunctionality\ContactTracingwithFunctionality\obj\Debug\net6.0-windows\ContactTracingwithFunctionality.csproj.CopyComplete
+C:\Users\user\source\repos\ContactTracingwithFunctionality\ContactTracingwithFunctionality\bin\Debug\net6.0-windows\AForge.dll
+C:\Users\user\source\repos\ContactTracingwithFunctionality\ContactTracingwithFunctionality\bin\Debug\net6.0-windows\AForge.Video.dll
+C:\Users\user\source\repos\ContactTracingwithFunctionality\ContactTracingwithFunctionality\bin\Debug\net6.0-windows\AForge.Video.DirectShow.dll
+C:\Users\user\source\repos\ContactTracingwithFunctionality\ContactTracingwithFunctionality\bin\Debug\net6.0-windows\zxing.dll
+C:\Users\user\source\repos\ContactTracingwithFunctionality\ContactTracingwithFunctionality\bin\Debug\net6.0-windows\ZKWeb.System.Drawing.dll
+C:\Users\user\source\repos\ContactTracingwithFunctionality\ContactTracingwithFunctionality\bin\Debug\net6.0-windows\ZXing.ZKWeb.System.Drawing.dll
