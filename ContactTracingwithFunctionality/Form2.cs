@@ -113,20 +113,7 @@ namespace ContactTracingwithFunctionality
         {
             this.Close();
         }
-        private void Form3_FormClosed(object? sender, FormClosedEventArgs e)
-        {
-            this.Show();
-        }
 
-        private void btnNext2_Click(object sender, EventArgs e)
-        {
-            QRCode form3 = new QRCode();
-            form3.Secondform = this;
-            form3.Show();
-
-            form3.FormClosed += Form3_FormClosed;
-            this.Hide();
-        }
         private void listBoxFilterResult_SelectedIndexChanged(object sender, EventArgs e)
         {
 

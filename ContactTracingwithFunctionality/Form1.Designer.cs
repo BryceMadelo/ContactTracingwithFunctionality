@@ -92,7 +92,7 @@
             this.btnNextPage.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnNextPage.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnNextPage.Font = new System.Drawing.Font("Cambria", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnNextPage.Location = new System.Drawing.Point(864, 580);
+            this.btnNextPage.Location = new System.Drawing.Point(848, 581);
             this.btnNextPage.Name = "btnNextPage";
             this.btnNextPage.Size = new System.Drawing.Size(88, 26);
             this.btnNextPage.TabIndex = 164;
@@ -105,7 +105,7 @@
             this.btnSavenSub.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnSavenSub.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnSavenSub.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnSavenSub.Location = new System.Drawing.Point(399, 559);
+            this.btnSavenSub.Location = new System.Drawing.Point(383, 560);
             this.btnSavenSub.Name = "btnSavenSub";
             this.btnSavenSub.Size = new System.Drawing.Size(162, 32);
             this.btnSavenSub.TabIndex = 163;
@@ -115,7 +115,8 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(53, 25);
+            this.pictureBox2.Image = global::ContactTracingwithFunctionality.Properties.Resources.images;
+            this.pictureBox2.Location = new System.Drawing.Point(81, 24);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(138, 75);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -127,7 +128,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Cambria", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label5.ForeColor = System.Drawing.Color.Maroon;
-            this.label5.Location = new System.Drawing.Point(209, 39);
+            this.label5.Location = new System.Drawing.Point(237, 38);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(435, 40);
             this.label5.TabIndex = 161;
@@ -135,7 +136,7 @@
             // 
             // DDateofVisit
             // 
-            this.DDateofVisit.Location = new System.Drawing.Point(631, 167);
+            this.DDateofVisit.Location = new System.Drawing.Point(659, 166);
             this.DDateofVisit.Name = "DDateofVisit";
             this.DDateofVisit.Size = new System.Drawing.Size(201, 23);
             this.DDateofVisit.TabIndex = 160;
@@ -143,8 +144,9 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.label4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(298, 458);
+            this.label4.Location = new System.Drawing.Point(282, 459);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(206, 17);
             this.label4.TabIndex = 37;
@@ -153,8 +155,9 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.label3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(311, 394);
+            this.label3.Location = new System.Drawing.Point(295, 395);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(186, 34);
             this.label3.TabIndex = 37;
@@ -163,8 +166,9 @@
             // lablQ2
             // 
             this.lablQ2.AutoSize = true;
+            this.lablQ2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.lablQ2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lablQ2.Location = new System.Drawing.Point(311, 348);
+            this.lablQ2.Location = new System.Drawing.Point(295, 349);
             this.lablQ2.Name = "lablQ2";
             this.lablQ2.Size = new System.Drawing.Size(193, 34);
             this.lablQ2.TabIndex = 37;
@@ -173,7 +177,8 @@
             // lablDifficulty
             // 
             this.lablDifficulty.AutoSize = true;
-            this.lablDifficulty.Location = new System.Drawing.Point(57, 497);
+            this.lablDifficulty.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.lablDifficulty.Location = new System.Drawing.Point(41, 498);
             this.lablDifficulty.Name = "lablDifficulty";
             this.lablDifficulty.Size = new System.Drawing.Size(58, 30);
             this.lablDifficulty.TabIndex = 28;
@@ -182,7 +187,8 @@
             // lablLoss
             // 
             this.lablLoss.AutoSize = true;
-            this.lablLoss.Location = new System.Drawing.Point(44, 471);
+            this.lablLoss.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.lablLoss.Location = new System.Drawing.Point(28, 472);
             this.lablLoss.Name = "lablLoss";
             this.lablLoss.Size = new System.Drawing.Size(73, 15);
             this.lablLoss.TabIndex = 28;
@@ -192,7 +198,8 @@
             // lablNose
             // 
             this.lablNose.AutoSize = true;
-            this.lablNose.Location = new System.Drawing.Point(44, 442);
+            this.lablNose.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.lablNose.Location = new System.Drawing.Point(28, 443);
             this.lablNose.Name = "lablNose";
             this.lablNose.Size = new System.Drawing.Size(71, 15);
             this.lablNose.TabIndex = 28;
@@ -201,7 +208,8 @@
             // lablSore
             // 
             this.lablSore.AutoSize = true;
-            this.lablSore.Location = new System.Drawing.Point(48, 413);
+            this.lablSore.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.lablSore.Location = new System.Drawing.Point(32, 414);
             this.lablSore.Name = "lablSore";
             this.lablSore.Size = new System.Drawing.Size(67, 15);
             this.lablSore.TabIndex = 28;
@@ -210,7 +218,8 @@
             // lablFever
             // 
             this.lablFever.AutoSize = true;
-            this.lablFever.Location = new System.Drawing.Point(80, 380);
+            this.lablFever.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.lablFever.Location = new System.Drawing.Point(64, 381);
             this.lablFever.Name = "lablFever";
             this.lablFever.Size = new System.Drawing.Size(35, 15);
             this.lablFever.TabIndex = 28;
@@ -219,8 +228,8 @@
             // lablCough
             // 
             this.lablCough.AutoSize = true;
-            this.lablCough.BackColor = System.Drawing.Color.White;
-            this.lablCough.Location = new System.Drawing.Point(72, 351);
+            this.lablCough.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.lablCough.Location = new System.Drawing.Point(56, 352);
             this.lablCough.Name = "lablCough";
             this.lablCough.Size = new System.Drawing.Size(43, 15);
             this.lablCough.TabIndex = 28;
@@ -229,9 +238,9 @@
             // lablQ1
             // 
             this.lablQ1.AutoSize = true;
-            this.lablQ1.BackColor = System.Drawing.Color.White;
+            this.lablQ1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.lablQ1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lablQ1.Location = new System.Drawing.Point(53, 306);
+            this.lablQ1.Location = new System.Drawing.Point(37, 307);
             this.lablQ1.Name = "lablQ1";
             this.lablQ1.Size = new System.Drawing.Size(252, 34);
             this.lablQ1.TabIndex = 149;
@@ -240,10 +249,10 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.White;
+            this.label2.BackColor = System.Drawing.SystemColors.Info;
             this.label2.Font = new System.Drawing.Font("Cambria", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.Color.DarkGreen;
-            this.label2.Location = new System.Drawing.Point(35, 266);
+            this.label2.Location = new System.Drawing.Point(19, 267);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(479, 40);
             this.label2.TabIndex = 147;
@@ -251,7 +260,7 @@
             // 
             // TxtboxPhNum
             // 
-            this.TxtboxPhNum.Location = new System.Drawing.Point(35, 220);
+            this.TxtboxPhNum.Location = new System.Drawing.Point(63, 219);
             this.TxtboxPhNum.Multiline = true;
             this.TxtboxPhNum.Name = "TxtboxPhNum";
             this.TxtboxPhNum.Size = new System.Drawing.Size(242, 28);
@@ -261,7 +270,7 @@
             // 
             this.lablPhNum.AutoSize = true;
             this.lablPhNum.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lablPhNum.Location = new System.Drawing.Point(35, 195);
+            this.lablPhNum.Location = new System.Drawing.Point(63, 194);
             this.lablPhNum.Name = "lablPhNum";
             this.lablPhNum.Size = new System.Drawing.Size(140, 22);
             this.lablPhNum.TabIndex = 145;
@@ -269,7 +278,7 @@
             // 
             // TxtboxAge
             // 
-            this.TxtboxAge.Location = new System.Drawing.Point(295, 156);
+            this.TxtboxAge.Location = new System.Drawing.Point(323, 155);
             this.TxtboxAge.Multiline = true;
             this.TxtboxAge.Name = "TxtboxAge";
             this.TxtboxAge.Size = new System.Drawing.Size(75, 28);
@@ -279,7 +288,7 @@
             // 
             this.lablAge.AutoSize = true;
             this.lablAge.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lablAge.Location = new System.Drawing.Point(295, 131);
+            this.lablAge.Location = new System.Drawing.Point(323, 130);
             this.lablAge.Name = "lablAge";
             this.lablAge.Size = new System.Drawing.Size(46, 22);
             this.lablAge.TabIndex = 142;
@@ -289,7 +298,7 @@
             // 
             this.lablVisitDt.AutoSize = true;
             this.lablVisitDt.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lablVisitDt.Location = new System.Drawing.Point(631, 142);
+            this.lablVisitDt.Location = new System.Drawing.Point(659, 141);
             this.lablVisitDt.Name = "lablVisitDt";
             this.lablVisitDt.Size = new System.Drawing.Size(115, 22);
             this.lablVisitDt.TabIndex = 141;
@@ -299,7 +308,7 @@
             // 
             this.lablAddress.AutoSize = true;
             this.lablAddress.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lablAddress.Location = new System.Drawing.Point(308, 196);
+            this.lablAddress.Location = new System.Drawing.Point(336, 195);
             this.lablAddress.Name = "lablAddress";
             this.lablAddress.Size = new System.Drawing.Size(85, 22);
             this.lablAddress.TabIndex = 140;
@@ -307,7 +316,7 @@
             // 
             // TxtboxAdd
             // 
-            this.TxtboxAdd.Location = new System.Drawing.Point(308, 221);
+            this.TxtboxAdd.Location = new System.Drawing.Point(336, 220);
             this.TxtboxAdd.Multiline = true;
             this.TxtboxAdd.Name = "TxtboxAdd";
             this.TxtboxAdd.Size = new System.Drawing.Size(444, 27);
@@ -317,7 +326,7 @@
             // 
             this.lablName.AutoSize = true;
             this.lablName.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lablName.Location = new System.Drawing.Point(35, 130);
+            this.lablName.Location = new System.Drawing.Point(63, 129);
             this.lablName.Name = "lablName";
             this.lablName.Size = new System.Drawing.Size(64, 22);
             this.lablName.TabIndex = 138;
@@ -325,7 +334,7 @@
             // 
             // TxtBoxNm
             // 
-            this.TxtBoxNm.Location = new System.Drawing.Point(35, 155);
+            this.TxtBoxNm.Location = new System.Drawing.Point(63, 154);
             this.TxtBoxNm.Multiline = true;
             this.TxtBoxNm.Name = "TxtBoxNm";
             this.TxtBoxNm.Size = new System.Drawing.Size(242, 28);
@@ -333,7 +342,8 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(666, 25);
+            this.pictureBox1.Image = global::ContactTracingwithFunctionality.Properties.Resources.images;
+            this.pictureBox1.Location = new System.Drawing.Point(694, 24);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(138, 75);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -342,9 +352,9 @@
             // 
             // dataGridView1
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(35, 266);
+            this.dataGridView1.Location = new System.Drawing.Point(19, 267);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 25;
             this.dataGridView1.Size = new System.Drawing.Size(917, 287);
@@ -353,7 +363,7 @@
             // picboxQR
             // 
             this.picboxQR.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.picboxQR.Location = new System.Drawing.Point(693, 289);
+            this.picboxQR.Location = new System.Drawing.Point(677, 290);
             this.picboxQR.Name = "picboxQR";
             this.picboxQR.Size = new System.Drawing.Size(236, 209);
             this.picboxQR.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -365,7 +375,7 @@
             this.btnQR.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnQR.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnQR.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnQR.Location = new System.Drawing.Point(712, 504);
+            this.btnQR.Location = new System.Drawing.Point(696, 505);
             this.btnQR.Name = "btnQR";
             this.btnQR.Size = new System.Drawing.Size(208, 32);
             this.btnQR.TabIndex = 166;
@@ -379,7 +389,7 @@
             this.cmbboxSex.Items.AddRange(new object[] {
             "Male",
             "Female"});
-            this.cmbboxSex.Location = new System.Drawing.Point(440, 161);
+            this.cmbboxSex.Location = new System.Drawing.Point(468, 160);
             this.cmbboxSex.Name = "cmbboxSex";
             this.cmbboxSex.Size = new System.Drawing.Size(121, 23);
             this.cmbboxSex.TabIndex = 167;
@@ -388,7 +398,7 @@
             // 
             this.lablSex.AutoSize = true;
             this.lablSex.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lablSex.Location = new System.Drawing.Point(440, 136);
+            this.lablSex.Location = new System.Drawing.Point(468, 135);
             this.lablSex.Name = "lablSex";
             this.lablSex.Size = new System.Drawing.Size(40, 22);
             this.lablSex.TabIndex = 168;
@@ -400,7 +410,7 @@
             this.cmbboxCough.Items.AddRange(new object[] {
             "Yes",
             "No"});
-            this.cmbboxCough.Location = new System.Drawing.Point(124, 348);
+            this.cmbboxCough.Location = new System.Drawing.Point(108, 349);
             this.cmbboxCough.Name = "cmbboxCough";
             this.cmbboxCough.Size = new System.Drawing.Size(121, 23);
             this.cmbboxCough.TabIndex = 169;
@@ -411,7 +421,7 @@
             this.cmbboxFever.Items.AddRange(new object[] {
             "Yes",
             "No"});
-            this.cmbboxFever.Location = new System.Drawing.Point(124, 380);
+            this.cmbboxFever.Location = new System.Drawing.Point(108, 381);
             this.cmbboxFever.Name = "cmbboxFever";
             this.cmbboxFever.Size = new System.Drawing.Size(121, 23);
             this.cmbboxFever.TabIndex = 170;
@@ -422,7 +432,7 @@
             this.cmbboxLoss.Items.AddRange(new object[] {
             "Yes",
             "No"});
-            this.cmbboxLoss.Location = new System.Drawing.Point(123, 468);
+            this.cmbboxLoss.Location = new System.Drawing.Point(107, 469);
             this.cmbboxLoss.Name = "cmbboxLoss";
             this.cmbboxLoss.Size = new System.Drawing.Size(121, 23);
             this.cmbboxLoss.TabIndex = 171;
@@ -433,7 +443,7 @@
             this.cmbboxRunny.Items.AddRange(new object[] {
             "Yes",
             "No"});
-            this.cmbboxRunny.Location = new System.Drawing.Point(124, 439);
+            this.cmbboxRunny.Location = new System.Drawing.Point(108, 440);
             this.cmbboxRunny.Name = "cmbboxRunny";
             this.cmbboxRunny.Size = new System.Drawing.Size(121, 23);
             this.cmbboxRunny.TabIndex = 172;
@@ -444,7 +454,7 @@
             this.cmbboxSore.Items.AddRange(new object[] {
             "Yes",
             "No"});
-            this.cmbboxSore.Location = new System.Drawing.Point(124, 410);
+            this.cmbboxSore.Location = new System.Drawing.Point(108, 411);
             this.cmbboxSore.Name = "cmbboxSore";
             this.cmbboxSore.Size = new System.Drawing.Size(121, 23);
             this.cmbboxSore.TabIndex = 173;
@@ -455,7 +465,7 @@
             this.cmbboxDiff.Items.AddRange(new object[] {
             "Yes",
             "No"});
-            this.cmbboxDiff.Location = new System.Drawing.Point(123, 497);
+            this.cmbboxDiff.Location = new System.Drawing.Point(107, 498);
             this.cmbboxDiff.Name = "cmbboxDiff";
             this.cmbboxDiff.Size = new System.Drawing.Size(121, 23);
             this.cmbboxDiff.TabIndex = 174;
@@ -466,7 +476,7 @@
             this.cmbboxTraveled.Items.AddRange(new object[] {
             "Yes",
             "No"});
-            this.cmbboxTraveled.Location = new System.Drawing.Point(510, 405);
+            this.cmbboxTraveled.Location = new System.Drawing.Point(494, 406);
             this.cmbboxTraveled.Name = "cmbboxTraveled";
             this.cmbboxTraveled.Size = new System.Drawing.Size(121, 23);
             this.cmbboxTraveled.TabIndex = 170;
@@ -477,7 +487,7 @@
             this.cmbboxContact.Items.AddRange(new object[] {
             "Yes",
             "No"});
-            this.cmbboxContact.Location = new System.Drawing.Point(510, 351);
+            this.cmbboxContact.Location = new System.Drawing.Point(494, 352);
             this.cmbboxContact.Name = "cmbboxContact";
             this.cmbboxContact.Size = new System.Drawing.Size(121, 23);
             this.cmbboxContact.TabIndex = 175;
@@ -489,7 +499,7 @@
             "Yes, I\'m Fully Vaccinated",
             "Yes, I\'M Fully Vaccinated with Booster Shot",
             "No"});
-            this.cmbboxVaxx.Location = new System.Drawing.Point(510, 457);
+            this.cmbboxVaxx.Location = new System.Drawing.Point(494, 458);
             this.cmbboxVaxx.Name = "cmbboxVaxx";
             this.cmbboxVaxx.Size = new System.Drawing.Size(150, 23);
             this.cmbboxVaxx.TabIndex = 176;
@@ -498,7 +508,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(964, 616);
+            this.ClientSize = new System.Drawing.Size(949, 616);
             this.Controls.Add(this.cmbboxVaxx);
             this.Controls.Add(this.cmbboxContact);
             this.Controls.Add(this.cmbboxTraveled);
