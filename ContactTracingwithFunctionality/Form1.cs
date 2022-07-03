@@ -2,7 +2,6 @@ namespace ContactTracingwithFunctionality
 {
     public partial class KonohaContactTracing : Form
     {
-        bool FormAnswers = false;
         public KonohaContactTracing()
         {
             InitializeComponent();
@@ -58,18 +57,14 @@ namespace ContactTracingwithFunctionality
 
         private void btnQR_Click(object sender, EventArgs e)
         {
-            FormAnswers = true;
-            Qrcode();
-        }
-        private void Qrcode()
-        {
-            
-            var text = TxtBoxNm.Text + " " + TxtboxAge.Text + " " + cmbboxSex.Text + " " + DDateofVisit.Text + " " + TxtboxPhNum.Text + " " + TxtboxAdd.Text + " " + cmbboxCough.Text + " " + cmbboxFever.Text + " " + cmbboxSore.Text + " " + cmbboxRunny.Text + " " + cmbboxLoss.Text + " " + cmbboxDiff.Text + " " + cmbboxContact.Text + " " + cmbboxTraveled.Text + " " + cmbboxVaxx.Text;
-            picboxQR.SizeMode = PictureBoxSizeMode.StretchImage;
+            //string QRInfo = TxtBoxNm.Text + "\n" + TxtboxAge.Text + "\n" + cmbboxSex.Text + "\n" + DDateofVisit.Text + "\n" + TxtboxPhNum.Text + "\n" + TxtboxAdd.Text + "\n" + cmbboxCough.Text + "\n" + cmbboxFever.Text + "\n" + cmbboxSore.Text + "\n" + cmbboxRunny.Text + "\n" + cmbboxLoss.Text + "\n" + cmbboxDiff.Text + "\n" + cmbboxContact.Text + "\n" + cmbboxTraveled.Text + "\n" + cmbboxVaxx.Text;
+           //var text = TxtBoxNm.Text + " " + TxtboxAge.Text + " " + cmbboxSex.Text + " " + DDateofVisit.Text + " " + TxtboxPhNum.Text + " " + TxtboxAdd.Text + " " + cmbboxCough.Text + " " + cmbboxFever.Text + " " + cmbboxSore.Text + " " + cmbboxRunny.Text + " " + cmbboxLoss.Text + " " + cmbboxDiff.Text + " " + cmbboxContact.Text + " " + cmbboxTraveled.Text + " " + cmbboxVaxx.Text;
+
             QRCoder.QRCodeGenerator qr = new QRCoder.QRCodeGenerator();
-            var Info = qr.CreateQrCode("Personal Information" + "                                                        Name: " + TxtBoxNm.Text + " " + "                                                             Age: " + TxtboxAge.Text + "                                                                  Sex: " + cmbboxSex.Text + "                                                                     Date Visit: " + DDateofVisit.Text + "                                                                 Phone Number: " + TxtboxPhNum.Text + "                                                   Address: " + TxtboxAdd.Text + "                                                         Have you been experiencing these symptopms?" + "                                                 Cough: " + cmbboxCough.Text + "                                                                  Fever: " + cmbboxFever.Text + "                                                                   Sore Throat: " + cmbboxSore.Text + "                                                              Runny Nose: " + cmbboxRunny.Text + "                                                                  Loss of Taste: " + cmbboxLoss.Text + "                                                          Difficulty Breathing:" + cmbboxDiff.Text + "                                     Have you been in close contact with a Covid - 19 case?:" + cmbboxContact.Text + "                                                              Have you traveled outside the country in the last 14 days ?:" + cmbboxTraveled.Text + "                                                                     Have you received vaccine doses?:" + cmbboxVaxx.Text, QRCoder.QRCodeGenerator.ECCLevel.L);
+            var Info = qr.CreateQrCode(TxtBoxNm.Text + "\n" + TxtboxAge.Text + "\n" + cmbboxSex.Text + "\n" + DDateofVisit.Text + "\n" + TxtboxPhNum.Text + "\n" + TxtboxAdd.Text + "\n" + cmbboxCough.Text + "\n" + cmbboxFever.Text + "\n" + cmbboxSore.Text + "\n" + cmbboxRunny.Text + "\n" + cmbboxLoss.Text + "\n" + cmbboxDiff.Text + "\n" + cmbboxContact.Text + "\n" + cmbboxTraveled.Text + "\n" + cmbboxVaxx.Text, QRCoder.QRCodeGenerator.ECCLevel.H);
             var code = new QRCoder.QRCode(Info);
-            picboxQR.Image = code.GetGraphic(50);
+            picboxQR.Image = code.GetGraphic(100);
+
         }
         private void lablLoss_Click(object sender, EventArgs e)
         {
@@ -87,6 +82,11 @@ namespace ContactTracingwithFunctionality
         private void Form2_FormClosed(object? sender, FormClosedEventArgs e)
         {
             this.Show();
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

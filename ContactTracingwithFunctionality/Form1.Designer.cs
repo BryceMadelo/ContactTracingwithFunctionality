@@ -146,11 +146,12 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.label4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(282, 459);
+            this.label4.Location = new System.Drawing.Point(275, 458);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(206, 17);
             this.label4.TabIndex = 37;
             this.label4.Text = "Have you received vaccine doses?";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label3
             // 
@@ -497,11 +498,11 @@
             this.cmbboxVaxx.FormattingEnabled = true;
             this.cmbboxVaxx.Items.AddRange(new object[] {
             "Yes, I\'m Fully Vaccinated",
-            "Yes, I\'M Fully Vaccinated with Booster Shot",
+            "Yes, I\'m Fully Vaccinated with Booster Shot",
             "No"});
-            this.cmbboxVaxx.Location = new System.Drawing.Point(494, 458);
+            this.cmbboxVaxx.Location = new System.Drawing.Point(477, 457);
             this.cmbboxVaxx.Name = "cmbboxVaxx";
-            this.cmbboxVaxx.Size = new System.Drawing.Size(150, 23);
+            this.cmbboxVaxx.Size = new System.Drawing.Size(194, 23);
             this.cmbboxVaxx.TabIndex = 176;
             // 
             // KonohaContactTracing

@@ -16,3 +16,5 @@ Bryce;19;Male;09167721215;Las Pinas City;06/26/2022;No;No;No;No;No;No;No;No;Yes,
 Nabi;19;Female;0927353731;Somewhere;06/21/2022;No;No;No;No;No;No;No;No;Yes, I'm fully vaccinated with booster shot
 el;11;Male;04947464;wsssssss;07/01/2022;No;No;No;No;No;No;No;No;Yes, I'm fully vaccinated with booster shot
 Brays;19;Male;09237356371;LPC;07/01/2022;No;No;No;No;No;No;No;No;Yes, I'M Fully Vaccinated with Booster Shot
+Brays;19;Male;0938373581;Bikini Bottom;07/01/2022;No;No;No;No;No;No;No;No;Yes, I'M Fully Vaccinated with Booster Shot
+bryas;19;Male;0973635371;LPC;07/01/2022;No;No;No;No;No;No;No;No;Yes, I'M Fully Vaccinated with Booster Shot
