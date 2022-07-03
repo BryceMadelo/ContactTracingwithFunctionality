@@ -41,7 +41,6 @@
             this.lablTitle2 = new System.Windows.Forms.Label();
             this.btnBack = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.btnNext2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -56,6 +55,7 @@
             this.listBoxFilterResult.SelectionMode = System.Windows.Forms.SelectionMode.MultiSimple;
             this.listBoxFilterResult.Size = new System.Drawing.Size(454, 259);
             this.listBoxFilterResult.TabIndex = 19;
+            this.listBoxFilterResult.SelectedIndexChanged += new System.EventHandler(this.listBoxFilterResult_SelectedIndexChanged);
             // 
             // lablDataVisit
             // 
@@ -172,25 +172,11 @@
             this.dataGridView1.Size = new System.Drawing.Size(734, 345);
             this.dataGridView1.TabIndex = 21;
             // 
-            // btnNext2
-            // 
-            this.btnNext2.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnNext2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnNext2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnNext2.Location = new System.Drawing.Point(683, 419);
-            this.btnNext2.Name = "btnNext2";
-            this.btnNext2.Size = new System.Drawing.Size(63, 23);
-            this.btnNext2.TabIndex = 22;
-            this.btnNext2.Text = "Next";
-            this.btnNext2.UseVisualStyleBackColor = false;
-            this.btnNext2.Click += new System.EventHandler(this.btnNext2_Click);
-            // 
             // DATABASE
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(758, 454);
-            this.Controls.Add(this.btnNext2);
+            this.ClientSize = new System.Drawing.Size(1090, 454);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.listBoxFilterResult);
             this.Controls.Add(this.lablDataVisit);
@@ -225,6 +211,5 @@
         private Label lablTitle2;
         private Button btnBack;
         private DataGridView dataGridView1;
-        private Button btnNext2;
     }
 }

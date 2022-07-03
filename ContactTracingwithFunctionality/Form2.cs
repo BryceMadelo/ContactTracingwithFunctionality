@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using QRCoder;
 
 namespace ContactTracingwithFunctionality
 {
@@ -125,6 +126,10 @@ namespace ContactTracingwithFunctionality
 
             form3.FormClosed += Form3_FormClosed;
             this.Hide();
+        }
+        private void listBoxFilterResult_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
