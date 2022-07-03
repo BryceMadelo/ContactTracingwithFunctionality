@@ -121,8 +121,8 @@ namespace ContactTracingwithFunctionality
 
         private void btnNextP_Click(object sender, EventArgs e)
         {
-            QRCode form3 = new QRCode();
-            form3.Secondform = this;
+            QRScanner form3 = new QRScanner();
+            form3.SecondForm = this;
             form3.Show();
 
             form3.FormClosed += Form3_FormClosed1;
