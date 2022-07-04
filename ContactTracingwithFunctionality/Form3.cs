@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using AForge;
 using AForge.Video.DirectShow;
 using ZXing;
+using System.IO;
 
 namespace ContactTracingwithFunctionality
 {

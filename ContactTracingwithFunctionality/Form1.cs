@@ -57,11 +57,11 @@ namespace ContactTracingwithFunctionality
 
         private void btnQR_Click(object sender, EventArgs e)
         {
-            //string QRInfo = TxtBoxNm.Text + "\n" + TxtboxAge.Text + "\n" + cmbboxSex.Text + "\n" + DDateofVisit.Text + "\n" + TxtboxPhNum.Text + "\n" + TxtboxAdd.Text + "\n" + cmbboxCough.Text + "\n" + cmbboxFever.Text + "\n" + cmbboxSore.Text + "\n" + cmbboxRunny.Text + "\n" + cmbboxLoss.Text + "\n" + cmbboxDiff.Text + "\n" + cmbboxContact.Text + "\n" + cmbboxTraveled.Text + "\n" + cmbboxVaxx.Text;
-           //var text = TxtBoxNm.Text + " " + TxtboxAge.Text + " " + cmbboxSex.Text + " " + DDateofVisit.Text + " " + TxtboxPhNum.Text + " " + TxtboxAdd.Text + " " + cmbboxCough.Text + " " + cmbboxFever.Text + " " + cmbboxSore.Text + " " + cmbboxRunny.Text + " " + cmbboxLoss.Text + " " + cmbboxDiff.Text + " " + cmbboxContact.Text + " " + cmbboxTraveled.Text + " " + cmbboxVaxx.Text;
+            
+            var Data = TxtBoxNm.Text + "\n" + TxtboxAge.Text + "\n" + cmbboxSex.Text + "\n" + DDateofVisit.Text + "\n" + TxtboxPhNum.Text + "\n" + TxtboxAdd.Text + "\n" + cmbboxCough.Text + "\n" + cmbboxFever.Text + "\n" + cmbboxSore.Text + "\n" + cmbboxRunny.Text + "\n" + cmbboxLoss.Text + "\n" + cmbboxDiff.Text + "\n" + cmbboxContact.Text + "\n" + cmbboxTraveled.Text + "\n" + cmbboxVaxx.Text;
 
             QRCoder.QRCodeGenerator qr = new QRCoder.QRCodeGenerator();
-            var Info = qr.CreateQrCode(TxtBoxNm.Text + "\n" + TxtboxAge.Text + "\n" + cmbboxSex.Text + "\n" + DDateofVisit.Text + "\n" + TxtboxPhNum.Text + "\n" + TxtboxAdd.Text + "\n" + cmbboxCough.Text + "\n" + cmbboxFever.Text + "\n" + cmbboxSore.Text + "\n" + cmbboxRunny.Text + "\n" + cmbboxLoss.Text + "\n" + cmbboxDiff.Text + "\n" + cmbboxContact.Text + "\n" + cmbboxTraveled.Text + "\n" + cmbboxVaxx.Text, QRCoder.QRCodeGenerator.ECCLevel.H);
+            var Info = qr.CreateQrCode(Data, QRCoder.QRCodeGenerator.ECCLevel.M);
             var code = new QRCoder.QRCode(Info);
             picboxQR.Image = code.GetGraphic(100);
 
