@@ -11,43 +11,43 @@ namespace ContactTracingwithFunctionality
         {
             StreamWriter file = new StreamWriter(@".\KonohaVisits.txt", true);
             //Personal Information Section
-            file.Write(TxtBoxNm.Text);
-            file.Write(";" + TxtboxAge.Text);
-            file.Write(";" + cmbboxSex.Text);
-            file.Write(";" + TxtboxPhNum.Text);
-            file.Write(";" + TxtboxAdd.Text);
-            file.Write(";" + DDateofVisit.Value.ToString("MM/dd/yyyy"));
+            file.Write(TxtBoxNm1.Text);
+            file.Write(";" + TxtboxAge2.Text);
+            file.Write(";" + cmbboxSex3.Text);
+            file.Write(";" + TxtboxPhNum5.Text);
+            file.Write(";" + TxtboxAdd6.Text);
+            file.Write(";" + DDateofVisit4.Value.ToString("MM/dd/yyyy"));
 
             //Health Information Section
-            file.Write(";" + cmbboxCough.Text);
-            file.Write(";" + cmbboxFever.Text);
-            file.Write(";" + cmbboxSore.Text);
-            file.Write(";" + cmbboxRunny.Text);
-            file.Write(";" + cmbboxLoss.Text);
-            file.Write(";" + cmbboxDiff.Text);
-            file.Write(";" + cmbboxContact.Text);
-            file.Write(";" + cmbboxTraveled.Text);
-            file.Write(";" + cmbboxVaxx.Text);
+            file.Write(";" + cmbboxCough7.Text);
+            file.Write(";" + cmbboxFever8.Text);
+            file.Write(";" + cmbboxSore9.Text);
+            file.Write(";" + cmbboxRunny10.Text);
+            file.Write(";" + cmbboxLoss11.Text);
+            file.Write(";" + cmbboxDiff12.Text);
+            file.Write(";" + cmbboxContact13.Text);
+            file.Write(";" + cmbboxTraveled14.Text);
+            file.Write(";" + cmbboxVaxx15.Text);
 
             file.WriteLine();
             file.Close();
 
-            TxtBoxNm.Text = "";
-            TxtboxAge.Text = "";
-            cmbboxSex.Text = "";
-            TxtboxPhNum.Text = "";
-            TxtboxAdd.Text = "";
-            DDateofVisit.ResetText();
+            TxtBoxNm1.Text = "";
+            TxtboxAge2.Text = "";
+            cmbboxSex3.Text = "";
+            TxtboxPhNum5.Text = "";
+            TxtboxAdd6.Text = "";
+            DDateofVisit4.ResetText();
 
-            cmbboxCough.Text = "";
-            cmbboxFever.Text = "";
-            cmbboxSore.Text = "";
-            cmbboxRunny.Text = "";
-            cmbboxLoss.Text = "";
-            cmbboxDiff.Text = "";
-            cmbboxContact.Text = "";
-            cmbboxTraveled.Text = "";
-            cmbboxVaxx.Text = "";
+            cmbboxCough7.Text = "";
+            cmbboxFever8.Text = "";
+            cmbboxSore9.Text = "";
+            cmbboxRunny10.Text = "";
+            cmbboxLoss11.Text = "";
+            cmbboxDiff12.Text = "";
+            cmbboxContact13.Text = "";
+            cmbboxTraveled14.Text = "";
+            cmbboxVaxx15.Text = "";
         }
 
         private void KonohaContactTracing_Load(object sender, EventArgs e)
@@ -58,7 +58,7 @@ namespace ContactTracingwithFunctionality
         private void btnQR_Click(object sender, EventArgs e)
         {
             
-            var Data = TxtBoxNm.Text + "\n" + TxtboxAge.Text + "\n" + cmbboxSex.Text + "\n" + DDateofVisit.Text + "\n" + TxtboxPhNum.Text + "\n" + TxtboxAdd.Text + "\n" + cmbboxCough.Text + "\n" + cmbboxFever.Text + "\n" + cmbboxSore.Text + "\n" + cmbboxRunny.Text + "\n" + cmbboxLoss.Text + "\n" + cmbboxDiff.Text + "\n" + cmbboxContact.Text + "\n" + cmbboxTraveled.Text + "\n" + cmbboxVaxx.Text;
+            var Data = TxtBoxNm1.Text + "\n" + TxtboxAge2.Text + "\n" + cmbboxSex3.Text + "\n" + DDateofVisit4.Text + "\n" + TxtboxPhNum5.Text + "\n" + TxtboxAdd6.Text + "\n" + cmbboxCough7.Text + "\n" + cmbboxFever8.Text + "\n" + cmbboxSore9.Text + "\n" + cmbboxRunny10.Text + "\n" + cmbboxLoss11.Text + "\n" + cmbboxDiff12.Text + "\n" + cmbboxContact13.Text + "\n" + cmbboxTraveled14.Text + "\n" + cmbboxVaxx15.Text;
 
             QRCoder.QRCodeGenerator qr = new QRCoder.QRCodeGenerator();
             var Info = qr.CreateQrCode(Data, QRCoder.QRCodeGenerator.ECCLevel.M);

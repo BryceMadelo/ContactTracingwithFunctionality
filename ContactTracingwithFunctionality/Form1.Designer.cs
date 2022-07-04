@@ -34,7 +34,7 @@
             this.btnSavenSub = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.DDateofVisit = new System.Windows.Forms.DateTimePicker();
+            this.DDateofVisit4 = new System.Windows.Forms.DateTimePicker();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.lablQ2 = new System.Windows.Forms.Label();
@@ -46,30 +46,30 @@
             this.lablCough = new System.Windows.Forms.Label();
             this.lablQ1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.TxtboxPhNum = new System.Windows.Forms.TextBox();
+            this.TxtboxPhNum5 = new System.Windows.Forms.TextBox();
             this.lablPhNum = new System.Windows.Forms.Label();
-            this.TxtboxAge = new System.Windows.Forms.TextBox();
+            this.TxtboxAge2 = new System.Windows.Forms.TextBox();
             this.lablAge = new System.Windows.Forms.Label();
             this.lablVisitDt = new System.Windows.Forms.Label();
             this.lablAddress = new System.Windows.Forms.Label();
-            this.TxtboxAdd = new System.Windows.Forms.TextBox();
+            this.TxtboxAdd6 = new System.Windows.Forms.TextBox();
             this.lablName = new System.Windows.Forms.Label();
-            this.TxtBoxNm = new System.Windows.Forms.TextBox();
+            this.TxtBoxNm1 = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.picboxQR = new System.Windows.Forms.PictureBox();
             this.btnQR = new System.Windows.Forms.Button();
-            this.cmbboxSex = new System.Windows.Forms.ComboBox();
+            this.cmbboxSex3 = new System.Windows.Forms.ComboBox();
             this.lablSex = new System.Windows.Forms.Label();
-            this.cmbboxCough = new System.Windows.Forms.ComboBox();
-            this.cmbboxFever = new System.Windows.Forms.ComboBox();
-            this.cmbboxLoss = new System.Windows.Forms.ComboBox();
-            this.cmbboxRunny = new System.Windows.Forms.ComboBox();
-            this.cmbboxSore = new System.Windows.Forms.ComboBox();
-            this.cmbboxDiff = new System.Windows.Forms.ComboBox();
-            this.cmbboxTraveled = new System.Windows.Forms.ComboBox();
-            this.cmbboxContact = new System.Windows.Forms.ComboBox();
-            this.cmbboxVaxx = new System.Windows.Forms.ComboBox();
+            this.cmbboxCough7 = new System.Windows.Forms.ComboBox();
+            this.cmbboxFever8 = new System.Windows.Forms.ComboBox();
+            this.cmbboxLoss11 = new System.Windows.Forms.ComboBox();
+            this.cmbboxRunny10 = new System.Windows.Forms.ComboBox();
+            this.cmbboxSore9 = new System.Windows.Forms.ComboBox();
+            this.cmbboxDiff12 = new System.Windows.Forms.ComboBox();
+            this.cmbboxTraveled14 = new System.Windows.Forms.ComboBox();
+            this.cmbboxContact13 = new System.Windows.Forms.ComboBox();
+            this.cmbboxVaxx15 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -134,23 +134,23 @@
             this.label5.TabIndex = 161;
             this.label5.Text = "KONOHA ENTRANCE FORM";
             // 
-            // DDateofVisit
+            // DDateofVisit4
             // 
-            this.DDateofVisit.Location = new System.Drawing.Point(659, 166);
-            this.DDateofVisit.Name = "DDateofVisit";
-            this.DDateofVisit.Size = new System.Drawing.Size(201, 23);
-            this.DDateofVisit.TabIndex = 160;
+            this.DDateofVisit4.Location = new System.Drawing.Point(659, 166);
+            this.DDateofVisit4.Name = "DDateofVisit4";
+            this.DDateofVisit4.Size = new System.Drawing.Size(201, 23);
+            this.DDateofVisit4.TabIndex = 160;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.label4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(275, 458);
+            this.label4.Location = new System.Drawing.Point(295, 453);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(206, 17);
+            this.label4.Size = new System.Drawing.Size(119, 34);
             this.label4.TabIndex = 37;
-            this.label4.Text = "Have you received vaccine doses?";
+            this.label4.Text = "Have you received \r\nvaccine doses?";
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label3
@@ -259,13 +259,13 @@
             this.label2.TabIndex = 147;
             this.label2.Text = "HEALTH DECLARATION FORM";
             // 
-            // TxtboxPhNum
+            // TxtboxPhNum5
             // 
-            this.TxtboxPhNum.Location = new System.Drawing.Point(63, 219);
-            this.TxtboxPhNum.Multiline = true;
-            this.TxtboxPhNum.Name = "TxtboxPhNum";
-            this.TxtboxPhNum.Size = new System.Drawing.Size(242, 28);
-            this.TxtboxPhNum.TabIndex = 146;
+            this.TxtboxPhNum5.Location = new System.Drawing.Point(63, 219);
+            this.TxtboxPhNum5.Multiline = true;
+            this.TxtboxPhNum5.Name = "TxtboxPhNum5";
+            this.TxtboxPhNum5.Size = new System.Drawing.Size(242, 28);
+            this.TxtboxPhNum5.TabIndex = 146;
             // 
             // lablPhNum
             // 
@@ -277,13 +277,13 @@
             this.lablPhNum.TabIndex = 145;
             this.lablPhNum.Text = "Phone Number";
             // 
-            // TxtboxAge
+            // TxtboxAge2
             // 
-            this.TxtboxAge.Location = new System.Drawing.Point(323, 155);
-            this.TxtboxAge.Multiline = true;
-            this.TxtboxAge.Name = "TxtboxAge";
-            this.TxtboxAge.Size = new System.Drawing.Size(75, 28);
-            this.TxtboxAge.TabIndex = 143;
+            this.TxtboxAge2.Location = new System.Drawing.Point(323, 155);
+            this.TxtboxAge2.Multiline = true;
+            this.TxtboxAge2.Name = "TxtboxAge2";
+            this.TxtboxAge2.Size = new System.Drawing.Size(75, 28);
+            this.TxtboxAge2.TabIndex = 143;
             // 
             // lablAge
             // 
@@ -315,13 +315,13 @@
             this.lablAddress.TabIndex = 140;
             this.lablAddress.Text = "Address ";
             // 
-            // TxtboxAdd
+            // TxtboxAdd6
             // 
-            this.TxtboxAdd.Location = new System.Drawing.Point(336, 220);
-            this.TxtboxAdd.Multiline = true;
-            this.TxtboxAdd.Name = "TxtboxAdd";
-            this.TxtboxAdd.Size = new System.Drawing.Size(444, 27);
-            this.TxtboxAdd.TabIndex = 139;
+            this.TxtboxAdd6.Location = new System.Drawing.Point(336, 220);
+            this.TxtboxAdd6.Multiline = true;
+            this.TxtboxAdd6.Name = "TxtboxAdd6";
+            this.TxtboxAdd6.Size = new System.Drawing.Size(444, 27);
+            this.TxtboxAdd6.TabIndex = 139;
             // 
             // lablName
             // 
@@ -333,13 +333,13 @@
             this.lablName.TabIndex = 138;
             this.lablName.Text = "Name ";
             // 
-            // TxtBoxNm
+            // TxtBoxNm1
             // 
-            this.TxtBoxNm.Location = new System.Drawing.Point(63, 154);
-            this.TxtBoxNm.Multiline = true;
-            this.TxtBoxNm.Name = "TxtBoxNm";
-            this.TxtBoxNm.Size = new System.Drawing.Size(242, 28);
-            this.TxtBoxNm.TabIndex = 137;
+            this.TxtBoxNm1.Location = new System.Drawing.Point(63, 154);
+            this.TxtBoxNm1.Multiline = true;
+            this.TxtBoxNm1.Name = "TxtBoxNm1";
+            this.TxtBoxNm1.Size = new System.Drawing.Size(242, 28);
+            this.TxtBoxNm1.TabIndex = 137;
             // 
             // pictureBox1
             // 
@@ -384,16 +384,16 @@
             this.btnQR.UseVisualStyleBackColor = false;
             this.btnQR.Click += new System.EventHandler(this.btnQR_Click);
             // 
-            // cmbboxSex
+            // cmbboxSex3
             // 
-            this.cmbboxSex.FormattingEnabled = true;
-            this.cmbboxSex.Items.AddRange(new object[] {
+            this.cmbboxSex3.FormattingEnabled = true;
+            this.cmbboxSex3.Items.AddRange(new object[] {
             "Male",
             "Female"});
-            this.cmbboxSex.Location = new System.Drawing.Point(468, 160);
-            this.cmbboxSex.Name = "cmbboxSex";
-            this.cmbboxSex.Size = new System.Drawing.Size(121, 23);
-            this.cmbboxSex.TabIndex = 167;
+            this.cmbboxSex3.Location = new System.Drawing.Point(468, 160);
+            this.cmbboxSex3.Name = "cmbboxSex3";
+            this.cmbboxSex3.Size = new System.Drawing.Size(121, 23);
+            this.cmbboxSex3.TabIndex = 167;
             // 
             // lablSex
             // 
@@ -405,130 +405,130 @@
             this.lablSex.TabIndex = 168;
             this.lablSex.Text = "Sex";
             // 
-            // cmbboxCough
+            // cmbboxCough7
             // 
-            this.cmbboxCough.FormattingEnabled = true;
-            this.cmbboxCough.Items.AddRange(new object[] {
+            this.cmbboxCough7.FormattingEnabled = true;
+            this.cmbboxCough7.Items.AddRange(new object[] {
             "Yes",
             "No"});
-            this.cmbboxCough.Location = new System.Drawing.Point(108, 349);
-            this.cmbboxCough.Name = "cmbboxCough";
-            this.cmbboxCough.Size = new System.Drawing.Size(121, 23);
-            this.cmbboxCough.TabIndex = 169;
+            this.cmbboxCough7.Location = new System.Drawing.Point(108, 349);
+            this.cmbboxCough7.Name = "cmbboxCough7";
+            this.cmbboxCough7.Size = new System.Drawing.Size(121, 23);
+            this.cmbboxCough7.TabIndex = 169;
             // 
-            // cmbboxFever
+            // cmbboxFever8
             // 
-            this.cmbboxFever.FormattingEnabled = true;
-            this.cmbboxFever.Items.AddRange(new object[] {
+            this.cmbboxFever8.FormattingEnabled = true;
+            this.cmbboxFever8.Items.AddRange(new object[] {
             "Yes",
             "No"});
-            this.cmbboxFever.Location = new System.Drawing.Point(108, 381);
-            this.cmbboxFever.Name = "cmbboxFever";
-            this.cmbboxFever.Size = new System.Drawing.Size(121, 23);
-            this.cmbboxFever.TabIndex = 170;
+            this.cmbboxFever8.Location = new System.Drawing.Point(108, 381);
+            this.cmbboxFever8.Name = "cmbboxFever8";
+            this.cmbboxFever8.Size = new System.Drawing.Size(121, 23);
+            this.cmbboxFever8.TabIndex = 170;
             // 
-            // cmbboxLoss
+            // cmbboxLoss11
             // 
-            this.cmbboxLoss.FormattingEnabled = true;
-            this.cmbboxLoss.Items.AddRange(new object[] {
+            this.cmbboxLoss11.FormattingEnabled = true;
+            this.cmbboxLoss11.Items.AddRange(new object[] {
             "Yes",
             "No"});
-            this.cmbboxLoss.Location = new System.Drawing.Point(107, 469);
-            this.cmbboxLoss.Name = "cmbboxLoss";
-            this.cmbboxLoss.Size = new System.Drawing.Size(121, 23);
-            this.cmbboxLoss.TabIndex = 171;
+            this.cmbboxLoss11.Location = new System.Drawing.Point(107, 469);
+            this.cmbboxLoss11.Name = "cmbboxLoss11";
+            this.cmbboxLoss11.Size = new System.Drawing.Size(121, 23);
+            this.cmbboxLoss11.TabIndex = 171;
             // 
-            // cmbboxRunny
+            // cmbboxRunny10
             // 
-            this.cmbboxRunny.FormattingEnabled = true;
-            this.cmbboxRunny.Items.AddRange(new object[] {
+            this.cmbboxRunny10.FormattingEnabled = true;
+            this.cmbboxRunny10.Items.AddRange(new object[] {
             "Yes",
             "No"});
-            this.cmbboxRunny.Location = new System.Drawing.Point(108, 440);
-            this.cmbboxRunny.Name = "cmbboxRunny";
-            this.cmbboxRunny.Size = new System.Drawing.Size(121, 23);
-            this.cmbboxRunny.TabIndex = 172;
+            this.cmbboxRunny10.Location = new System.Drawing.Point(108, 440);
+            this.cmbboxRunny10.Name = "cmbboxRunny10";
+            this.cmbboxRunny10.Size = new System.Drawing.Size(121, 23);
+            this.cmbboxRunny10.TabIndex = 172;
             // 
-            // cmbboxSore
+            // cmbboxSore9
             // 
-            this.cmbboxSore.FormattingEnabled = true;
-            this.cmbboxSore.Items.AddRange(new object[] {
+            this.cmbboxSore9.FormattingEnabled = true;
+            this.cmbboxSore9.Items.AddRange(new object[] {
             "Yes",
             "No"});
-            this.cmbboxSore.Location = new System.Drawing.Point(108, 411);
-            this.cmbboxSore.Name = "cmbboxSore";
-            this.cmbboxSore.Size = new System.Drawing.Size(121, 23);
-            this.cmbboxSore.TabIndex = 173;
+            this.cmbboxSore9.Location = new System.Drawing.Point(108, 411);
+            this.cmbboxSore9.Name = "cmbboxSore9";
+            this.cmbboxSore9.Size = new System.Drawing.Size(121, 23);
+            this.cmbboxSore9.TabIndex = 173;
             // 
-            // cmbboxDiff
+            // cmbboxDiff12
             // 
-            this.cmbboxDiff.FormattingEnabled = true;
-            this.cmbboxDiff.Items.AddRange(new object[] {
+            this.cmbboxDiff12.FormattingEnabled = true;
+            this.cmbboxDiff12.Items.AddRange(new object[] {
             "Yes",
             "No"});
-            this.cmbboxDiff.Location = new System.Drawing.Point(107, 498);
-            this.cmbboxDiff.Name = "cmbboxDiff";
-            this.cmbboxDiff.Size = new System.Drawing.Size(121, 23);
-            this.cmbboxDiff.TabIndex = 174;
+            this.cmbboxDiff12.Location = new System.Drawing.Point(107, 498);
+            this.cmbboxDiff12.Name = "cmbboxDiff12";
+            this.cmbboxDiff12.Size = new System.Drawing.Size(121, 23);
+            this.cmbboxDiff12.TabIndex = 174;
             // 
-            // cmbboxTraveled
+            // cmbboxTraveled14
             // 
-            this.cmbboxTraveled.FormattingEnabled = true;
-            this.cmbboxTraveled.Items.AddRange(new object[] {
+            this.cmbboxTraveled14.FormattingEnabled = true;
+            this.cmbboxTraveled14.Items.AddRange(new object[] {
             "Yes",
             "No"});
-            this.cmbboxTraveled.Location = new System.Drawing.Point(494, 406);
-            this.cmbboxTraveled.Name = "cmbboxTraveled";
-            this.cmbboxTraveled.Size = new System.Drawing.Size(121, 23);
-            this.cmbboxTraveled.TabIndex = 170;
+            this.cmbboxTraveled14.Location = new System.Drawing.Point(494, 406);
+            this.cmbboxTraveled14.Name = "cmbboxTraveled14";
+            this.cmbboxTraveled14.Size = new System.Drawing.Size(121, 23);
+            this.cmbboxTraveled14.TabIndex = 170;
             // 
-            // cmbboxContact
+            // cmbboxContact13
             // 
-            this.cmbboxContact.FormattingEnabled = true;
-            this.cmbboxContact.Items.AddRange(new object[] {
+            this.cmbboxContact13.FormattingEnabled = true;
+            this.cmbboxContact13.Items.AddRange(new object[] {
             "Yes",
             "No"});
-            this.cmbboxContact.Location = new System.Drawing.Point(494, 352);
-            this.cmbboxContact.Name = "cmbboxContact";
-            this.cmbboxContact.Size = new System.Drawing.Size(121, 23);
-            this.cmbboxContact.TabIndex = 175;
+            this.cmbboxContact13.Location = new System.Drawing.Point(494, 352);
+            this.cmbboxContact13.Name = "cmbboxContact13";
+            this.cmbboxContact13.Size = new System.Drawing.Size(121, 23);
+            this.cmbboxContact13.TabIndex = 175;
             // 
-            // cmbboxVaxx
+            // cmbboxVaxx15
             // 
-            this.cmbboxVaxx.FormattingEnabled = true;
-            this.cmbboxVaxx.Items.AddRange(new object[] {
+            this.cmbboxVaxx15.FormattingEnabled = true;
+            this.cmbboxVaxx15.Items.AddRange(new object[] {
             "Yes, I\'m Fully Vaccinated",
             "Yes, I\'m Fully Vaccinated with Booster Shot",
             "No"});
-            this.cmbboxVaxx.Location = new System.Drawing.Point(477, 457);
-            this.cmbboxVaxx.Name = "cmbboxVaxx";
-            this.cmbboxVaxx.Size = new System.Drawing.Size(194, 23);
-            this.cmbboxVaxx.TabIndex = 176;
+            this.cmbboxVaxx15.Location = new System.Drawing.Point(420, 457);
+            this.cmbboxVaxx15.Name = "cmbboxVaxx15";
+            this.cmbboxVaxx15.Size = new System.Drawing.Size(251, 23);
+            this.cmbboxVaxx15.TabIndex = 176;
             // 
             // KonohaContactTracing
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(949, 616);
-            this.Controls.Add(this.cmbboxVaxx);
-            this.Controls.Add(this.cmbboxContact);
-            this.Controls.Add(this.cmbboxTraveled);
-            this.Controls.Add(this.cmbboxDiff);
+            this.Controls.Add(this.cmbboxVaxx15);
+            this.Controls.Add(this.cmbboxContact13);
+            this.Controls.Add(this.cmbboxTraveled14);
+            this.Controls.Add(this.cmbboxDiff12);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.cmbboxSore);
+            this.Controls.Add(this.cmbboxSore9);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.lablQ2);
-            this.Controls.Add(this.cmbboxRunny);
-            this.Controls.Add(this.cmbboxLoss);
-            this.Controls.Add(this.cmbboxFever);
-            this.Controls.Add(this.cmbboxCough);
+            this.Controls.Add(this.cmbboxRunny10);
+            this.Controls.Add(this.cmbboxLoss11);
+            this.Controls.Add(this.cmbboxFever8);
+            this.Controls.Add(this.cmbboxCough7);
             this.Controls.Add(this.lablSex);
             this.Controls.Add(this.lablDifficulty);
             this.Controls.Add(this.lablLoss);
             this.Controls.Add(this.lablNose);
             this.Controls.Add(this.lablSore);
             this.Controls.Add(this.lablFever);
-            this.Controls.Add(this.cmbboxSex);
+            this.Controls.Add(this.cmbboxSex3);
             this.Controls.Add(this.lablCough);
             this.Controls.Add(this.btnQR);
             this.Controls.Add(this.picboxQR);
@@ -536,18 +536,18 @@
             this.Controls.Add(this.btnSavenSub);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.DDateofVisit);
+            this.Controls.Add(this.DDateofVisit4);
             this.Controls.Add(this.lablQ1);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.TxtboxPhNum);
+            this.Controls.Add(this.TxtboxPhNum5);
             this.Controls.Add(this.lablPhNum);
-            this.Controls.Add(this.TxtboxAge);
+            this.Controls.Add(this.TxtboxAge2);
             this.Controls.Add(this.lablAge);
             this.Controls.Add(this.lablVisitDt);
             this.Controls.Add(this.lablAddress);
-            this.Controls.Add(this.TxtboxAdd);
+            this.Controls.Add(this.TxtboxAdd6);
             this.Controls.Add(this.lablName);
-            this.Controls.Add(this.TxtBoxNm);
+            this.Controls.Add(this.TxtBoxNm1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.lablTitle);
@@ -570,7 +570,7 @@
         private Button btnSavenSub;
         private PictureBox pictureBox2;
         private Label label5;
-        private DateTimePicker DDateofVisit;
+        private DateTimePicker DDateofVisit4;
         private Label label4;
         private Label label3;
         private Label lablQ2;
@@ -582,29 +582,29 @@
         private Label lablCough;
         private Label lablQ1;
         private Label label2;
-        private TextBox TxtboxPhNum;
+        private TextBox TxtboxPhNum5;
         private Label lablPhNum;
-        private TextBox TxtboxAge;
+        private TextBox TxtboxAge2;
         private Label lablAge;
         private Label lablVisitDt;
         private Label lablAddress;
-        private TextBox TxtboxAdd;
+        private TextBox TxtboxAdd6;
         private Label lablName;
-        private TextBox TxtBoxNm;
+        private TextBox TxtBoxNm1;
         private PictureBox pictureBox1;
         private DataGridView dataGridView1;
         private PictureBox picboxQR;
         private Button btnQR;
-        private ComboBox cmbboxSex;
+        private ComboBox cmbboxSex3;
         private Label lablSex;
-        private ComboBox cmbboxCough;
-        private ComboBox cmbboxFever;
-        private ComboBox cmbboxLoss;
-        private ComboBox cmbboxRunny;
-        private ComboBox cmbboxSore;
-        private ComboBox cmbboxDiff;
-        private ComboBox cmbboxTraveled;
-        private ComboBox cmbboxContact;
-        private ComboBox cmbboxVaxx;
+        private ComboBox cmbboxCough7;
+        private ComboBox cmbboxFever8;
+        private ComboBox cmbboxLoss11;
+        private ComboBox cmbboxRunny10;
+        private ComboBox cmbboxSore9;
+        private ComboBox cmbboxDiff12;
+        private ComboBox cmbboxTraveled14;
+        private ComboBox cmbboxContact13;
+        private ComboBox cmbboxVaxx15;
     }
 }
